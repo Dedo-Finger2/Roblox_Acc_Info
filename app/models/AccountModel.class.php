@@ -1,6 +1,5 @@
 <?php
 
-    /**
-     * @return mixed
-     * @param int $name
-     */
+namespace App\Model {
+
+}
