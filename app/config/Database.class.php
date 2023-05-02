@@ -20,7 +20,7 @@ class Database
         if (!isset(self::$conexao)) {
             // Tenta criar uma conexão com o banco de dados
             try {
-                self::$conexao = new \mysqli("localhost", "root", "", "roblox_acc");
+                self::$conexao = new \mysqli("localhost", "root", "", "roblox_acc_info");
             } catch (Exception $e) {
                 // Joga o erro que deu no log
                 Log::logGeral("Ocorreu um erro na conexão com o banco de dados: " . $e->getMessage());
