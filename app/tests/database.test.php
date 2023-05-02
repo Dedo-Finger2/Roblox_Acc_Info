@@ -13,9 +13,8 @@
     }
 </style>
 <?php
-    use App\Model\Database;
-
-    require_once("../config/Database.class.php");
+    require_once("../../autoload.php");
+    use App\Config\Database;
 
     $conexao = new Database();
     $conexao::conectar();
