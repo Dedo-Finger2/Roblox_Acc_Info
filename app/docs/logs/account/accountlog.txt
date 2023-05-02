@@ -1,0 +1,28 @@
+[DATA]: 02-05-2023 
+[HORA]: 11:48:46 
+[AÇÃO]: Ocorreu um erro na conexão com o banco de dados: Unknown database 'roblox_acc'
+
+[DATA]: 02-05-2023 
+[HORA]: 11:48:57 
+[AÇÃO]: Ocorreu um erro na conexão com o banco de dados: Unknown database 'roblox_acc'
+
+[DATA]: 02-05-2023 
+[HORA]: 11:49:21 
+[AÇÃO]: Ocorreu um erro na conexão com o banco de dados: Unknown database 'roblox_acc'
+
+[DATA]: 02-05-2023 
+[HORA]: 12:05:31 
+[AÇÃO]: Ocorreu um erro na conexão com o banco de dados: Unknown database 'roblox_acc'
+
+[DATA]: 02-05-2023 
+[HORA]: 12:06:51 
+[AÇÃO]: Ocorreu um erro na conexão com o banco de dados: Unknown database 'roblox_acc'
+
+[DATA]: 02-05-2023 
+[HORA]: 12:06:56 
+[AÇÃO]: Ocorreu um erro na conexão com o banco de dados: Unknown database 'roblox_acc'
+
+[DATA]: 02-05-2023 
+[HORA]: 12:06:56 
+[AÇÃO]: Ocorreu um erro na conexão com o banco de dados: Unknown database 'roblox_acc'
+

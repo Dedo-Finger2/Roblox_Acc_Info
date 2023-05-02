@@ -1,5 +1,3 @@
 <?php
 
-namespace App\Model {
-
-}
+namespace App\Model;
