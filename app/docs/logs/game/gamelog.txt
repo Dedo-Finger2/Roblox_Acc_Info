@@ -1,0 +1,30 @@
+[DATA]: 03-05-2023 
+[HORA]: 09:18:43 
+[AÇÃO]: Novo jogo criado: Wisteria 2 
+[DESCRIPTION]: Um jogo de demon slayer 
+[ACCOUNTS]: dadeds2,dadeds3,dadeds6
+
+[DATA]: 03-05-2023 
+[HORA]: 09:28:05 
+[AÇÃO]: Novo jogo criado: Project Mugetsu 
+[DESCRIPTION]: Um jogo de bleach 
+[ACCOUNTS]: keydo_finger,dedo_finger,dedo_ff
+
+[DATA]: 03-05-2023 
+[HORA]: 09:28:54 
+[AÇÃO]: Game deletado: Wisteria 2 
+[DESCRIPTION]: Um jogo de demon slayer 
+[ACCOUNTS]: dadeds2,dadeds3,dadeds6
+
+[DATA]: 03-05-2023 
+[HORA]: 09:41:52 
+[AÇÃO]: Conta editada[ANTIGO]: Project Mugetsu 
+[DESCRIPTION]: Um jogo de bleach 
+[ACCOUNTS]: keydo_finger,dedo_finger,dedo_ff
+
+[DATA]: 03-05-2023 
+[HORA]: 09:41:52 
+[AÇÃO]: Conta editada[NOVA]: Shinobi life2 
+[DESCRIPTION]: Jogo de naruto lá 
+[ACCOUNTS]: keydo_finger,dedo_finger,dedo_ff
+

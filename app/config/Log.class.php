@@ -53,14 +53,18 @@ class Log
      * Método que registra uma ação no arquivo LOG de Game
      * @param string $action - Ação feita
      */
-    public static function logGame($action)
+    public static function logGame($action, $description, $accounts)
     {
         // Código do método
         date_default_timezone_set('America/Sao_Paulo');
         $hourNow = date("H:i:s");
         $dateNow = date("d-m-Y");
+        $unserialized_accounts = unserialize($accounts);
+
+        $accounts_string = implode(',', $unserialized_accounts);
+
         $log = fopen("../docs/logs/game/gamelog.txt", "a+");
-        $text = "[DATA]: $dateNow \n[HORA]: $hourNow \n[AÇÃO]: $action\n\n";
+        $text = "[DATA]: $dateNow \n[HORA]: $hourNow \n[AÇÃO]: $action \n[DESCRIPTION]: $description \n[ACCOUNTS]: $accounts_string\n\n";
         fwrite($log, $text);
         fclose($log);
     }

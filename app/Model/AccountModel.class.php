@@ -101,7 +101,7 @@ class AccountModel
             } catch (Exception $e) {
 
                 // Registrando o erro no LOG
-                \App\Config\Log::logAccount("Ocorreu um erro na deleção da conta: $" . $row['username'] . $e->getMessage(), $row['info'], $row['games']);
+                \App\Config\Log::logAccount("Ocorreu um erro na deleção da conta: " . $row['username'] . $e->getMessage(), $row['info'], $row['games']);
                 $errorMsg = "Ocorreu um erro na deleção da conta: <b>" . $row['username'] . $e->getMessage() . "</b>";
 
                 // exibindo o erro na tela
@@ -158,15 +158,13 @@ class AccountModel
 
             } catch (Exception $e) {
                 // Registrando o erro no LOG
-                \App\Config\Log::logAccount("Ocorreu um erro na deleção da conta: $" . $rowAntigo['username'] . $e->getMessage(), $rowAntigo['info'], $rowAntigo['games']);
-                $errorMsg = "Ocorreu um erro na deleção da conta: <b>" . $rowAntigo['username'] . $e->getMessage() . "</b>";
+                \App\Config\Log::logAccount("Ocorreu um erro na edição da conta: " . $rowAntigo['username'] . $e->getMessage(), $rowAntigo['info'], $rowAntigo['games']);
+                $errorMsg = "Ocorreu um erro na edição da conta: <b>" . $rowAntigo['username'] . $e->getMessage() . "</b>";
 
                 // exibindo o erro na tela
                 echo "<div class='error'>$errorMsg</div>";
                 return false;
             }
-
-
         }
     }
 }
