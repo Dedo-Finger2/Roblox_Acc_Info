@@ -4,8 +4,13 @@ use App\Controller\AccountController;
     //var_dump($_POST);
 
     if (isset($_POST['Editar'])) {
+        // Se clicar em edidtar, usar o método que edita os dados
         $id =  $form = (new AccountController())->updateData(36, $_POST);
         echo "Dados editados com sucesso! ID: " . $id;
+        exit();
+    } if (isset($_POST['delete'])) {
+        // método de deletar data
+        $id = $form = (new AccountController())->deleteData(36);
         exit();
     } else {
         $id = $form = (new AccountController())->storeData($_POST);

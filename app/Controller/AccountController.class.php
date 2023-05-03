@@ -170,11 +170,13 @@ class AccountController
     public function updateData($account_id, $dados)
     {
         try {
+            // Se os iputs forem vazios ele joga essa Exception
             if (empty($dados['username']) || empty($dados['info'])) {
                 throw new Exception('Por favor, preencha todos os cmapos obrigatórios.');
             }
 
             if (($dados['username']) && ($dados['info'])) {
+
                 // Convertendo a string de $dados['games'] em um array associativo
                 $games_array = array();
                 if (!empty($dados['games'])) {
@@ -218,20 +220,59 @@ class AccountController
     }
 
     /**
-     * Abre um modal para confirmar deleção da conta
+     * Vai para a tela de confirmação de deleção de conta
      * @param int $account_id - ID da conta que vai ser deletado
      */
-    public function deleteForm()
+    public function deleteForm($account_id)
     {
+        // Requirindo a conexão com o banco de dados
+        require_once("../Config/Conexao.php");
 
+        $form =
+            '<form method="post" action="processform.test.php">
+                <h1>Deseja realmente apagar essa conta?</h1>
+                <input type="submit" value="Deletar" name="delete">
+            </form>';
+        echo $form;
+        // instanciando a seleção dos dados
+        $sql = $conexao->prepare("SELECT * FROM accounts WHERE acc_id = ?");
+        $sql->bind_param("i", $account_id);
+        $sql->execute();
+
+        $resultado = $sql->get_result();
+        $row = $resultado->fetch_assoc();
+
+        $info = unserialize($row['info']);
+        $games = unserialize($row['games']);
+        $username = $row['username'];
+        
+        echo "<div>";
+        echo "<b>Conta:</b> $username";
+        echo "<br><br><b>Info:</b><br>";
+        foreach ($info as $jogo => $item) {
+            echo($jogo . " - " . $item . "<br>");
+        };
+        echo "<br><b>Games:</b> $games";
+        echo "</div>";
+
+        // É necessário dar um ECHO nesse método para que o form seja exibido
+        //return $form;
     }
 
     /**
      * Remove uma conta do banco de dados
-     * @param int $account_id
+     * @param int $account_id - ID da conta que vai ser removida
      */
     public function deleteData($account_id)
     {
+        $deleteAccount = (new \App\Model\AccountModel())->deleteAccount($account_id);
 
+        if (empty($deleteAccount)) {
+            return $deleteAccount;
+        } else {
+            return ("[ATENÇÃO] Ocorreu um erro ao tentar deletar a conta.");
+        }
+
+        // Volta para tela de listagem
     }
 }

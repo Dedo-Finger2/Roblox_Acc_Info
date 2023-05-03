@@ -4,5 +4,6 @@
 
     $form = new AccountController();
     echo $form->createForm(false);
-    echo "<a href='processEditForm.test.php'>Editar</a>";
+    echo "<a href='editForm.test.php'>Editar</a><hr>";
+    echo "<a href='deleteForm.test.php'>Deletar</a>";
     //echo $form->storeData();
