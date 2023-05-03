@@ -3,6 +3,7 @@
 namespace App\Model;
 
 require_once("../Config/Database.class.php");
+require_once("../Config/Log.class.php");
 
 use Exception;
 use mysqli_sql_exception;
@@ -29,9 +30,24 @@ class AccountModel
      * @param array $games - Jogos em que essa conta tem algo de importante
      * @return int - ID da conta que acaba de ser cadastrada
      */
-    public function createAccount($username, $info, $games)
+    public function createAccount(string $username, array $info, array $games)
     {
+        if (get_class($this->conexao) == "mysqli") {
+            $serialized_info = serialize($info);
+            $serialized_games = serialize($games);
+            $createAccount = $this->conexao->prepare("INSERT INTO accounts (username, info, games) VALUES (?,?,?)");
+            $createAccount->bind_param("sss", $username, $serialized_info, $serialized_games);
 
+            try {
+                $createAccount->execute();
+                $id = \mysqli_insert_id($this->conexao);
+                return $id;
+            } catch (mysqli_sql_exception $e) {
+                Log::logGeral("Ocorreu um erro na conexão com o banco de dados: " . $e->getMessage());
+                $errorMsg = "Ocorreu um erro na conexão com o banco de dados: <b>" . $e->getMessage() . "</b>";
+                echo "<div class='error'>$errorMsg</div>";
+            }
+        }
     }
 
     /**
