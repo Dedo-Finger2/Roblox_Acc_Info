@@ -173,51 +173,47 @@ class AccountController
             if (empty($dados['username']) || empty($dados['info'])) {
                 throw new Exception('Por favor, preencha todos os cmapos obrigatórios.');
             }
+
+            if (($dados['username']) && ($dados['info'])) {
+                // Convertendo a string de $dados['games'] em um array associativo
+                $games_array = array();
+                if (!empty($dados['games'])) {
+                    $games_pairs = explode(',', $dados['games']);
+                    foreach ($games_pairs as $pair) {
+                        $pair_parts = explode(':', $pair);
+                        if (count($pair_parts) == 2) {
+                            $key = trim($pair_parts[0]);
+                            $value = trim($pair_parts[1]);
+                            if (!empty($value)) {
+                                $games_array[$key] = $value;
+                            }
+                        }
+                    }
+                }
+
+                // Convertendo a string de $dados['info'] em um array associativo e gerando uma string com suas chaves
+                $info_array = array();
+                if (!empty($dados['info'])) {
+                    $info_pairs = explode(',', $dados['info']);
+                    foreach ($info_pairs as $pair) {
+                        $pair_parts = explode(':', $pair);
+                        if (count($pair_parts) == 2) {
+                            $key = trim($pair_parts[0]);
+                            $value = trim($pair_parts[1]);
+                            if (!empty($value)) {
+                                $info_array[$key] = $value;
+                            }
+                        }
+                    }
+                }
+                $info_keys_string = implode(',', array_keys($info_array));
+
+                $result = (new \App\Model\AccountModel())->editAccount($account_id, $dados['username'], $info_array, $info_keys_string);
+
+                return $result;
+            }
         } catch (Exception $e) {
-            return '[ATENÇÃO] Ocorreu um erro ao tentar atualizar' . $e->getMessage();
-        }
-
-        if (($dados['username']) && ($dados['info'])) {
-            // Convertendo a string de $dados['games'] em um array associativo
-            $games_array = array();
-            if (!empty($dados['games'])) {
-                $games_pairs = explode(',', $dados['games']);
-                foreach ($games_pairs as $pair) {
-                    $pair_parts = explode(':', $pair);
-                    if (count($pair_parts) == 2) {
-                        $key = trim($pair_parts[0]);
-                        $value = trim($pair_parts[1]);
-                        if (!empty($value)) {
-                            $games_array[$key] = $value;
-                        }
-                    }
-                }
-            }
-
-            // Convertendo a string de $dados['info'] em um array associativo e gerando uma string com suas chaves
-            $info_array = array();
-            if (!empty($dados['info'])) {
-                $info_pairs = explode(',', $dados['info']);
-                foreach ($info_pairs as $pair) {
-                    $pair_parts = explode(':', $pair);
-                    if (count($pair_parts) == 2) {
-                        $key = trim($pair_parts[0]);
-                        $value = trim($pair_parts[1]);
-                        if (!empty($value)) {
-                            $info_array[$key] = $value;
-                        }
-                    }
-                }
-            }
-            $info_keys_string = implode(',', array_keys($info_array));
-
-            $updateAccount = (new \App\Model\AccountModel())->editAccount($account_id, $dados['username'], $info_array, $info_keys_string);
-
-            if (is_integer($updateAccount)) {
-                return $updateAccount;
-            } else {
-                return ("[ATENÇÃO] Ocorreu um erro ao tentar atualizar");
-            }
+            return '[ATENÇÃO] Ocorreu um erro ao tentar atualizar: ' . $e->getMessage();
         }
     }
 

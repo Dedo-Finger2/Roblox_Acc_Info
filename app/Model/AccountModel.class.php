@@ -143,9 +143,9 @@ class AccountModel
                 echo "ID não encontrado no banco de dados!";
                 exit();
             }
-            try {
-                // Executa a edição dos dados da conta
-                $editAccount->execute();
+
+            // Executa a edição dos dados da conta
+            if ($editAccount->execute()) {
 
                 // Obter os dados atualizados da conta
                 $sqlNovo = "SELECT * FROM accounts WHERE acc_id = '$account_id'";
@@ -154,16 +154,13 @@ class AccountModel
 
                 // registrar a ação no LOG: Dados novos
                 \App\Config\Log::logAccount("Conta editada[NOVA]: " . $rowNovo['username'], $rowNovo['info'], $rowNovo['games']);
-                return true;
 
-            } catch (Exception $e) {
+                return $account_id;
+
+            } else {
                 // Registrando o erro no LOG
-                \App\Config\Log::logAccount("Ocorreu um erro na edição da conta: " . $rowAntigo['username'] . $e->getMessage(), $rowAntigo['info'], $rowAntigo['games']);
-                $errorMsg = "Ocorreu um erro na edição da conta: <b>" . $rowAntigo['username'] . $e->getMessage() . "</b>";
-
-                // exibindo o erro na tela
-                echo "<div class='error'>$errorMsg</div>";
-                return false;
+                \App\Config\Log::logAccount("Ocorreu um erro na edição da conta: " . $rowAntigo['username'] . $this->conexao->error, $rowAntigo['info'], $rowAntigo['games']);
+                throw new Exception("Ocorreu um erro na edição da conta: " . $this->conexao->error);
             }
         }
     }
