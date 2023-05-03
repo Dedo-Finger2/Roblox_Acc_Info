@@ -33,18 +33,35 @@ class AccountModel
     public function createAccount(string $username, array $info, array $games)
     {
         if (get_class($this->conexao) == "mysqli") {
+            // Serializando os arrays para que seja transformado numa string para o banco de dados, essa string pode ser decodificada de volta pra array se necessário
             $serialized_info = serialize($info);
             $serialized_games = serialize($games);
+
+            // Instanciando a nova conta
             $createAccount = $this->conexao->prepare("INSERT INTO accounts (username, info, games) VALUES (?,?,?)");
             $createAccount->bind_param("sss", $username, $serialized_info, $serialized_games);
 
             try {
+                // Tentando executar o comando SQL $createAccount
                 $createAccount->execute();
+
+                // Pegando o ID da nova conta criada
                 $id = \mysqli_insert_id($this->conexao);
+
+                // Criando informações para o arquivo de LOG
+                $sql = "SELECT * FROM accounts WHERE acc_id = '$id'";
+                $result = $this->conexao->query($sql);
+                $row = $result->fetch_assoc();
+
+                // Registrando ação no LOG
+                \App\Config\Log::logAccount("Nova conta criada: " . $row['username'], $row['info'], $row['games']);
                 return $id;
-            } catch (mysqli_sql_exception $e) {
-                Log::logGeral("Ocorreu um erro na conexão com o banco de dados: " . $e->getMessage());
-                $errorMsg = "Ocorreu um erro na conexão com o banco de dados: <b>" . $e->getMessage() . "</b>";
+            } catch (Exception $e) {
+                // Registrando erro no LOG
+                \App\Config\Log::logAccount("Ocorreu um erro na criação da conta: " . $row['username'] . " " . $e->getMessage(), $row['info'], $row['games']);
+                $errorMsg = "Ocorreu um erro na criação da conta: <b>" . $e->getMessage() . "</b>";
+
+                // Exibindo o erro na tela
                 echo "<div class='error'>$errorMsg</div>";
             }
         }
@@ -57,7 +74,41 @@ class AccountModel
      */
     public function deleteAccount($account_id)
     {
-        
+        if (get_class($this->conexao) == "mysqli") {
+
+            // Instanciando a deleção da conta
+            $deleteAccount = $this->conexao->prepare("DELETE FROM accounts WHERE acc_id = ?");
+            $deleteAccount->bind_param("i", $account_id);
+
+            // Gerando os dados para o LOG
+            $sql = "SELECT * FROM accounts WHERE acc_id = '$account_id'";
+            $result = $this->conexao->query($sql);
+            $row = $result->fetch_assoc();
+
+            try {
+                // Se o ID existir, deletar a conta
+                if (isset($row['username'])) {
+                    $deleteAccount->execute();
+
+                    // Registrando a ação no LOG
+                    \App\Config\Log::logAccount("Conta deletada: " . $row['username'], $row['info'], $row['games']);
+                    return true;
+                } else {
+                    // Se o ID da conta tentando ser deletada não existir, essa mensagem será exibida
+                    echo "<div class='error'>O ID informado não consta no banco de dados!</div>";
+                    exit();
+                }
+            } catch (Exception $e) {
+
+                // Registrando o erro no LOG
+                \App\Config\Log::logAccount("Ocorreu um erro na deleção da conta: $" . $row['username'] . $e->getMessage(), $row['info'], $row['games']);
+                $errorMsg = "Ocorreu um erro na deleção da conta: <b>" . $row['username'] . $e->getMessage() . "</b>";
+
+                // exibindo o erro na tela
+                echo "<div class='error'>$errorMsg</div>";
+                return false;
+            }
+        }
     }
 
     /**
@@ -70,6 +121,52 @@ class AccountModel
      */
     public function editAccount($account_id, $username, $info, $games)
     {
-        
+        if (get_class($this->conexao) == "mysqli") {
+
+            // Obter os dados antigos da conta
+            $sqlAntigo = "SELECT * FROM accounts WHERE acc_id = '$account_id'";
+            $resultAntigo = $this->conexao->query($sqlAntigo);
+            $rowAntigo = $resultAntigo->fetch_assoc();
+
+            // Serializando os arrays para serem postos no banco de dados como strings
+            $serialized_info = serialize($info);
+            $serialized_games = serialize($games);
+
+            // instanciando edição da conta
+            $editAccount = $this->conexao->prepare("UPDATE accounts SET username = ?, info = ?, games = ? WHERE acc_id = ?");
+            $editAccount->bind_param("sssi", $username, $serialized_info, $serialized_games, $account_id);
+
+            if (isset($rowAntigo['username'])) {
+                // Registrar a ação no LOG: Dados antigos
+                \App\Config\Log::logAccount("Conta editada[ANTIGO]: " . $rowAntigo['username'], $rowAntigo['info'], $rowAntigo['games']);
+            } else {
+                echo "ID não encontrado no banco de dados!";
+                exit();
+            }
+            try {
+                // Executa a edição dos dados da conta
+                $editAccount->execute();
+
+                // Obter os dados atualizados da conta
+                $sqlNovo = "SELECT * FROM accounts WHERE acc_id = '$account_id'";
+                $resultNovo = $this->conexao->query($sqlNovo);
+                $rowNovo = $resultNovo->fetch_assoc();
+
+                // registrar a ação no LOG: Dados novos
+                \App\Config\Log::logAccount("Conta editada[NOVA]: " . $rowNovo['username'], $rowNovo['info'], $rowNovo['games']);
+                return true;
+
+            } catch (Exception $e) {
+                // Registrando o erro no LOG
+                \App\Config\Log::logAccount("Ocorreu um erro na deleção da conta: $" . $rowAntigo['username'] . $e->getMessage(), $rowAntigo['info'], $rowAntigo['games']);
+                $errorMsg = "Ocorreu um erro na deleção da conta: <b>" . $rowAntigo['username'] . $e->getMessage() . "</b>";
+
+                // exibindo o erro na tela
+                echo "<div class='error'>$errorMsg</div>";
+                return false;
+            }
+
+
+        }
     }
 }

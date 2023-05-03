@@ -7,17 +7,22 @@ use App\Model\AccountModel;
 
     $info = [
         'Wisteria2' => 'Kamado',
-        'GPO' => 'Tori-Tori',
-        'Shinobi Life' => 'Naruto',
-        'Deepwoken' => 'Kamui Bell'
+        'GPO' => 'Venom-Venom',
+        'Shinobi Life' => 'Kamui kekegenkai',
+        'Deepwoken' => 'Kamui bell',
+        'Project Mugetsu' => 'Aizens orb',
+        'A one piece game' => 'Tori'
     ];
 
     $games = array_keys($info);
 
+    //$accountEdit = (new AccountModel())->editAccount(16, "Spider", $info, $games);
 
-    //$account = (new AccountModel())->createAccount("Dedo", $info, $games);
+    //$accountDelete = (new AccountModel())->deleteAccount(6);
 
-    $sql = "SELECT * FROM accounts";
+    /*echo $accountCreate = (new AccountModel())->createAccount("Dedo", $info, $games);
+
+    $sql = "SELECT * FROM accounts WHERE acc_id = '$accountCreate'";
     $result = $conexao->query($sql);
 
     if ($result->num_rows > 0) {
@@ -28,7 +33,8 @@ use App\Model\AccountModel;
         $info = unserialize($serialized_info);
         $games = unserialize($serialized_games);
 
-        print_r($info);
+        //print_r($info);
         echo "<hr>";
-        print_r($games);
+        //print_r($games);
     }
+    */
