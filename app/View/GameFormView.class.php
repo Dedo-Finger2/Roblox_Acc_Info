@@ -2,6 +2,8 @@
 
 namespace App\View;
 
+use Exception;
+
 class GameFormView
 {
     /**
