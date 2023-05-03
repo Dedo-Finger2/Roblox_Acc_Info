@@ -24,7 +24,7 @@ class AccountController
                 <label for="games">Games:</label>
                 <textarea name="games" id="games"></textarea>
 
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" name="submitAccount">
             </form>';
 
             // É necessário dar um ECHO nesse método para que o form seja exibido
@@ -41,7 +41,7 @@ class AccountController
                 <label for="games">Games:</label>
                 <textarea name="games" id="games"></textarea>
 
-                <input type="submit" value="Editar" name="Editar">
+                <input type="submit" value="Editar" name="editAccount">
             </form>';
 
             // É necessário dar um ECHO nesse método para que o form seja exibido
