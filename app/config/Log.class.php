@@ -4,7 +4,7 @@ namespace App\Config;
 
 class Log
 {
-    
+
     /**
      * Método que registra uma ação no arquivo LOG de Game
      * @param string $action - Ação feita
@@ -20,7 +20,7 @@ class Log
         fwrite($log, $text);
         fclose($log);
     }
-    
+
     /**
      * Método que registra uma ação no arquivo LOG de Account
      * @param string $action - Ação feita
@@ -29,19 +29,21 @@ class Log
      */
     public static function logAccount($action, $info, $games)
     {
-        // Código do método
         date_default_timezone_set('America/Sao_Paulo');
         $hourNow = date("H:i:s");
         $dateNow = date("d-m-Y");
         $unserialized_info = unserialize($info);
         $unserialized_games = unserialize($games);
 
+        $info_array = is_array($unserialized_info) ? $unserialized_info : explode(',', $unserialized_info);
         $info_string = '';
-        foreach ($unserialized_info as $key => $value) {
+        foreach ($info_array as $key => $value) {
             $info_string .= "$key: $value, ";
         }
+        $info_string = rtrim($info_string, ', ');
 
-        $games_string = implode(',', $unserialized_games);
+        $games_array = is_array($unserialized_games) ? $unserialized_games : explode(',', $unserialized_games);
+        $games_string = implode(', ', $games_array);
 
         $log = fopen("../docs/logs/account/accountlog.txt", "a+");
         $text = "[DATA]: $dateNow \n[HORA]: $hourNow \n[AÇÃO]: $action\n[INFO]: $info_string \n[GAMES]: $games_string\n\n";

@@ -1,0 +1,6 @@
+[DATA]: 03-05-2023 
+[HORA]: 16:12:18 
+[AÇÃO]: Conta deletada: dedo_finger36 normal
+[INFO]: Jogo1: item1, Jogo2: item2, Jogo7: item7, Jogo4: item4, Jogo9: item9, Jogo10: item10 
+[GAMES]: Jogo1, Jogo2, Jogo7, Jogo4, Jogo9, Jogo10
+
