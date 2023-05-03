@@ -1,0 +1,4 @@
+[DATA]: 02-05-2023 
+[HORA]: 22:10:52 
+[AÇÃO]: Ocorreu um erro na conexão com o banco de dados: Unknown database 'roblox_acc_inf'
+
