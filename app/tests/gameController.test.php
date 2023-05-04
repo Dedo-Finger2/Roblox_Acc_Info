@@ -7,3 +7,5 @@ use App\Controller\GameController;
     echo $gameForm->createForm(false);
     echo "<a href='#'>Editar</a><hr>";
     echo "<a href='#'>Deletar</a>";
+
+    // $gameForm->getGameInfo(2);

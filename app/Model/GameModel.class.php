@@ -170,4 +170,31 @@ class GameModel
         }
     }
 
+    public function getAll($game_id)
+    {
+        /**
+         * Retorna todas as informações do jogo dentro de um array associativo
+         * @var string $name - Nome do jogo
+         * @var string $description - Descrição do jogo
+         * @var array $accounts - Contas do jogo
+         */
+
+        $sql = "SELECT * FROM games WHERE game_id='$game_id'";
+        $result = $this->conexao->query($sql);
+        $row = $result->fetch_assoc();
+
+        if ($row !== null) {
+            $game_info = [
+                '<b>[NAME]</b>' => $row['name'],
+                '<b>[DESCRIPTION]</b>' => $row['description'],
+                '<b>[ACCOUNTS]</b>' => unserialize($row['accounts']),
+            ];
+    
+            return $game_info;
+        } else {
+           return "[ATENÇÃO] Ocorreu um erro na consulta: ID não consta no banco de dados";
+        }
+        
+    }
+
 }

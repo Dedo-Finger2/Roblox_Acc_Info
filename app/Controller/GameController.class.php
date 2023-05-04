@@ -62,13 +62,13 @@ class GameController
                 throw new Exception('Por favor, preencha todos os campos obrigatórios');
             } else {
                 if (($data['gameName']) && ($data['gameDescription'])) {
-                    
+
                     // Fazendo uma varedura no banco de dados
                     $sql = "SELECT * FROM accounts";
                     $resultado = mysqli_query($conexao, $sql);
 
                     if (mysqli_num_rows($resultado) > 0) {
-                        
+
                         // Array com as contas registradas no banco de dados que tem ligação com o jogo
                         $accountsWithTheGame = array();
 
@@ -83,13 +83,13 @@ class GameController
 
                         // Se o array não for vazio...
                         if (!empty($accountsWithTheGame)) {
-                            $createGame = ((new \App\Model\GameModel()))->createGame($data['gameName'], $data['gameDescription'], $accountsWithTheGame);  
+                            $createGame = ((new \App\Model\GameModel()))->createGame($data['gameName'], $data['gameDescription'], $accountsWithTheGame);
                         } else {
                             $accountsWithTheGame = ['Sem contas no momento'];
                             $createGame = ((new \App\Model\GameModel()))->createGame($data['gameName'], $data['gameDescription'], $accountsWithTheGame);
                             // echo "[ATENÇÃO] Não existe contas com esse jogo no banco de dados!";
                         }
-                        
+
 
                         if (is_integer($createGame)) {
                             return $createGame;
@@ -142,4 +142,36 @@ class GameController
     {
 
     }
+
+    /**
+     * Retorna as informações do jogo selecionado no banco de dados
+     * @param int $game_id - ID do jogo que vai ser mostrado as informações
+     * @return array - Array associativo com as informações do jogo selecionado
+     */
+    public function getGameInfo($game_id)
+    {
+        if (empty($game_id)) {
+            echo "[ATENÇÃO] ID inválido!";
+            exit();
+        }
+
+        try {
+            $game_info = (new \App\Model\GameModel())->getAll($game_id);
+            foreach ($game_info as $key => $value) {
+                echo "<br>";
+                echo $key . " => ";
+                if (is_array($value)) {
+                    foreach ($value as $conta) {
+                        echo $conta .", ";
+                    }
+                } else {
+                    echo $value;
+                }
+                
+            }
+        } catch (Exception $e) {
+            return $e->getMessage();
+        }
+    }
+
 }
