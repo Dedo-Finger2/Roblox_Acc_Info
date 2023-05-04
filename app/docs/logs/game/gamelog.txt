@@ -28,3 +28,27 @@
 [DESCRIPTION]: Jogo de naruto lá 
 [ACCOUNTS]: keydo_finger,dedo_finger,dedo_ff
 
+[DATA]: 04-05-2023 
+[HORA]: 10:05:11 
+[AÇÃO]: Novo jogo criado: Wisteria2 
+[DESCRIPTION]: jogo legal 
+[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2
+
+[DATA]: 04-05-2023 
+[HORA]: 10:10:31 
+[AÇÃO]: Novo jogo criado: Jogo2 
+[DESCRIPTION]: jogo legal 
+[ACCOUNTS]: Teste editado,Teste 2
+
+[DATA]: 04-05-2023 
+[HORA]: 10:10:53 
+[AÇÃO]: Novo jogo criado: GPO 
+[DESCRIPTION]: jogo legal 
+[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2
+
+[DATA]: 04-05-2023 
+[HORA]: 10:11:14 
+[AÇÃO]: Novo jogo criado: Mighty Omega 
+[DESCRIPTION]: jogo legal 
+[ACCOUNTS]: Sem contas no momento
+

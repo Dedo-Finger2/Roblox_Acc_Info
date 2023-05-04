@@ -81,11 +81,13 @@ class GameController
                             }
                         }
 
-                        // Se for não for vazio...
+                        // Se o array não for vazio...
                         if (!empty($accountsWithTheGame)) {
-                            $createGame = ((new \App\Model\GameModel()))->createGame($data['gameName'], $data['gameDescription'], $accountsWithTheGame);    
+                            $createGame = ((new \App\Model\GameModel()))->createGame($data['gameName'], $data['gameDescription'], $accountsWithTheGame);  
                         } else {
-                            // Se o array com as contas for vazio, então o jogo é novo... Fazer algo a respeito disso!
+                            $accountsWithTheGame = ['Sem contas no momento'];
+                            $createGame = ((new \App\Model\GameModel()))->createGame($data['gameName'], $data['gameDescription'], $accountsWithTheGame);
+                            // echo "[ATENÇÃO] Não existe contas com esse jogo no banco de dados!";
                         }
                         
 
