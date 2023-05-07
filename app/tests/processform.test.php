@@ -31,6 +31,8 @@ if (isset($_POST['submitGame'])) {
     exit();
 
 
+} elseif (isset($_POST['cancel'])) {
+    header('Location: ../../pages/list.php');
 } elseif (isset($_POST['editGame'])) {
     $id = $gameForm = (new GameController())->updateData($_POST['id'], $_POST);
     echo "Dados editados com sucesso! ID: " . $id;

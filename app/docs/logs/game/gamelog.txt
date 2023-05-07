@@ -82,3 +82,51 @@
 [DESCRIPTION]: Jogo feito pelo phoeyu 
 [ACCOUNTS]: dadeds2,dadeds3,Teste de account
 
+[DATA]: 07-05-2023 
+[HORA]: 16:26:24 
+[AÇÃO]: Jogo editado[ANTIGO]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: dadeds2,dadeds3,Teste de account
+
+[DATA]: 07-05-2023 
+[HORA]: 16:26:24 
+[AÇÃO]: Jogo editado[NOVO]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: dadeds2,dadeds3,Teste de account,Testando
+
+[DATA]: 07-05-2023 
+[HORA]: 16:26:29 
+[AÇÃO]: Jogo editado[ANTIGO]: Wisteria2 
+[DESCRIPTION]: jogo de demon slayer no roblox 
+[ACCOUNTS]: dadeds2,dadeds3
+
+[DATA]: 07-05-2023 
+[HORA]: 16:26:29 
+[AÇÃO]: Jogo editado[NOVO]: Wisteria2 
+[DESCRIPTION]: jogo de demon slayer no roblox 
+[ACCOUNTS]: dadeds2,dadeds3,Testando
+
+[DATA]: 07-05-2023 
+[HORA]: 16:26:33 
+[AÇÃO]: Jogo editado[ANTIGO]: Shinobi Life2 
+[DESCRIPTION]: Jogo de naruto lá 
+[ACCOUNTS]: dadeds2
+
+[DATA]: 07-05-2023 
+[HORA]: 16:26:33 
+[AÇÃO]: Jogo editado[NOVO]: Shinobi Life2 
+[DESCRIPTION]: Jogo de naruto lá 
+[ACCOUNTS]: dadeds2,Teste de account
+
+[DATA]: 07-05-2023 
+[HORA]: 16:26:35 
+[AÇÃO]: Jogo editado[ANTIGO]: Mighty Omega 
+[DESCRIPTION]: Jogo de luta 
+[ACCOUNTS]: dadeds2
+
+[DATA]: 07-05-2023 
+[HORA]: 16:26:35 
+[AÇÃO]: Jogo editado[NOVO]: Mighty Omega 
+[DESCRIPTION]: Jogo de luta 
+[ACCOUNTS]: dadeds2
+

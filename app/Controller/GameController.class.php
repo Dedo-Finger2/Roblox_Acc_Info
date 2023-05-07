@@ -29,21 +29,50 @@ class GameController
             return $form;
         } else {
             $form =
-                '<form method="post" action="../app/Tests/processform.test.php">
-            <label for="name">Name:</label>
-            <input type="text" name="gameName" id="name">
+                '
+                <div class="container-fluid vh-100">
+                <div class="row align-items-center justify-content-center vh-100">
+                    <div class="col-md-4">
+                        <div class="bg-primary shadow-sm p-4" style="background-image: linear-gradient(to bottom, #007bff, #4d94ff); border-radius: 15px;">
+                            <form method="post" action="../app/Tests/processform.test.php">
+                                <h3 class="text-center text-white">Roblox Account Info</h3>
+                                <div class="d-flex align-items-center">
+                                    <img src="../assets/img/whiteLogo.png" alt="Logo" width="105" height="98" class="mx-auto">
+                                </div>
 
-            <label for="description">Description:</label>
-            <textarea name="gameDescription" id="description"></textarea>
-
-            <input type="hidden" name="id">
-
-            <label for="accounts">Accounts:</label>
-            <textarea name="gameAccounts" id="accounts"></textarea>
-
-            <input type="submit" value="Editar" name="editGame">
-            <input type="submit" value="Refresh" name="refreshGame">
-            </form>';
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label text-white fw-bold">Name</label>
+                                    <input type="text" name="gameName" class="form-control" id="exampleFormControlInput1" placeholder="dadeds2..." aria-labelledby="passwordHelpBlock">
+                                    <div id="passwordHelpBlock" class="form-text text-white text">
+                                        The name of the game.
+                                    </div>
+                                </div>
+            
+                                <input type="hidden" name="id">
+            
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label text-white fw-bold">Description</label>
+                                    <textarea name="gameDescription" placeholder="JOGO: ITEM, JOGO2: ITEM2" class="form-control" id="exampleFormControlTextarea1" rows="3" aria-labelledby="passwordHelpBlock"></textarea>
+                                    <div id="passwordHelpBlock" class="form-text text-white">
+                                        Description of the game.
+                                    </div>
+                                </div>
+            
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label text-white fw-bold">Accounts</label>
+                                    <textarea name="gameAccounts" placeholder="JOGO: ITEM, JOGO2: ITEM2" class="form-control" id="exampleFormControlTextarea1" rows="3" aria-labelledby="passwordHelpBlock"></textarea>
+                                    <div id="passwordHelpBlock" class="form-text text-white">
+                                        Accounts with something important in this game.
+                                    </div>
+                                </div>
+            
+                                <button type="submit" class="btn btn-success text-white" value="Submit" name="editGame">Edit</button>
+                                <button class="btn btn-danger float-end" name="cancel">Cancel</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>';
 
             // É necessário dar um ECHO nesse método para que o form seja exibido
             return $form;
