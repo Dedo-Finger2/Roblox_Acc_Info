@@ -190,3 +190,117 @@
 [INFO]: GPO: Magu, Wisteria2: Kamado 
 [GAMES]: GPO, Wisteria2
 
+[DATA]: 07-05-2023 
+[HORA]: 11:35:13 
+[AÇÃO]: Nova conta criada: Vai funcionar
+[INFO]: GPO: Budah, Shinobi Life2: Kamui 
+[GAMES]: GPO, Shinobi Life2
+
+[DATA]: 07-05-2023 
+[HORA]: 11:39:14 
+[AÇÃO]: Nova conta criada: Vai funcionar2
+[INFO]: Mighty Omega: Ohman 
+[GAMES]: Mighty Omega
+
+[DATA]: 07-05-2023 
+[HORA]: 11:41:24 
+[AÇÃO]: Conta editada[ANTIGO]: Vai funcionar2
+[INFO]: Mighty Omega: Ohman 
+[GAMES]: Mighty Omega
+
+[DATA]: 07-05-2023 
+[HORA]: 11:41:24 
+[AÇÃO]: Conta editada[NOVA]: Vai funcionar2
+[INFO]: Mighty Omega: Ohman, GPO: Suke-Suke 
+[GAMES]: Mighty Omega, GPO
+
+[DATA]: 07-05-2023 
+[HORA]: 11:42:37 
+[AÇÃO]: Nova conta criada: SOU DO GPO
+[INFO]: Mighty Omega: Um clâ, Shinobi Life2: Madara 
+[GAMES]: Mighty Omega, Shinobi Life2
+
+[DATA]: 07-05-2023 
+[HORA]: 11:50:03 
+[AÇÃO]: Conta editada[ANTIGO]: Vai funcionar2
+[INFO]: Mighty Omega: Ohman, GPO: Suke-Suke 
+[GAMES]: Mighty Omega, GPO
+
+[DATA]: 07-05-2023 
+[HORA]: 11:50:03 
+[AÇÃO]: Conta editada[NOVA]: Vai funcionar2
+[INFO]: Mighty Omega: Ohman, GPO: Suke-Suke 
+[GAMES]: Mighty Omega, GPO
+
+[DATA]: 07-05-2023 
+[HORA]: 11:53:55 
+[AÇÃO]: Nova conta criada: Mais um teste
+[INFO]: GPO: Tori 
+[GAMES]: Array
+
+[DATA]: 07-05-2023 
+[HORA]: 11:57:11 
+[AÇÃO]: Nova conta criada: Outro teste legal
+[INFO]: GPO: Pika 
+[GAMES]: Array, 
+
+[DATA]: 07-05-2023 
+[HORA]: 11:58:11 
+[AÇÃO]: Nova conta criada: Ultimo teste
+[INFO]: GPO: Tori 
+[GAMES]: Array, 
+
+[DATA]: 07-05-2023 
+[HORA]: 12:10:49 
+[AÇÃO]: Conta deletada: Vai funcionar2
+[INFO]: Mighty Omega: Ohman, GPO: Suke-Suke 
+[GAMES]: Mighty Omega, GPO
+
+[DATA]: 07-05-2023 
+[HORA]: 12:11:49 
+[AÇÃO]: Nova conta criada: hmmmm
+[INFO]: GPO: Tori, : 
+[GAMES]: Array
+
+[DATA]: 07-05-2023 
+[HORA]: 12:13:51 
+[AÇÃO]: Conta deletada: hmmmm
+[INFO]: GPO: Tori, : 
+[GAMES]: Array
+
+[DATA]: 07-05-2023 
+[HORA]: 12:13:59 
+[AÇÃO]: Conta deletada: Mais um teste
+[INFO]: GPO: Tori 
+[GAMES]: Array
+
+[DATA]: 07-05-2023 
+[HORA]: 12:15:07 
+[AÇÃO]: Nova conta criada: dadeds2
+[INFO]: GPO: Tori, Shinobi Life2: Kamui 
+[GAMES]: GPO, Shinobi Life2
+
+[DATA]: 07-05-2023 
+[HORA]: 12:15:43 
+[AÇÃO]: Conta editada[ANTIGO]: dadeds2
+[INFO]: GPO: Tori, Shinobi Life2: Kamui 
+[GAMES]: GPO, Shinobi Life2
+
+[DATA]: 07-05-2023 
+[HORA]: 12:15:43 
+[AÇÃO]: Conta editada[NOVA]: dadeds2
+[INFO]: GPO: Tori, Shinobi Life2: Kamui, Mighty Omega: Ohman 
+[GAMES]: GPO, Shinobi Life2, Mighty Omega
+
+[DATA]: 07-05-2023 
+[HORA]: 12:16:32 
+[AÇÃO]: Conta editada[ANTIGO]: dadeds2
+[INFO]: GPO: Tori, Shinobi Life2: Kamui, Mighty Omega: Ohman 
+[GAMES]: GPO, Shinobi Life2, Mighty Omega
+
+[DATA]: 07-05-2023 
+[HORA]: 12:16:32 
+[AÇÃO]: Conta editada[NOVA]: dadeds2
+[INFO]: GPO: Tori, Shinobi Life2: Kamui, Mighty Omega: Ohman, Wisteria2: Kamado 
+[GAMES]: GPO, Shinobi Life2, Mighty Omega, Wisteria2
+

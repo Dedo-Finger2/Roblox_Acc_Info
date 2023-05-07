@@ -55,11 +55,11 @@ $resultadoGames = $conexao->query("SELECT * FROM games");
                                 Dropdown
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item btn btn-primary" href="#">New account</a></li>
+                                <li><a class="dropdown-item btn btn-primary" href="accountCreateForm.php">New account</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">New game</a></li>
+                                <li><a class="dropdown-item" href="gameCreateForm.php">New game</a></li>
                             </ul>
                         </li>
                     </ul>
