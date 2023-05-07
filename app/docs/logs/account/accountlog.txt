@@ -112,3 +112,9 @@
 [INFO]: Wisteria2: Algo/Mais algo/Ultima coisa, GPO: Fruta 
 [GAMES]: Wisteria2, GPO
 
+[DATA]: 07-05-2023 
+[HORA]: 00:12:02 
+[AÇÃO]: Nova conta criada: dadeds2
+[INFO]: Wisteria2: Kamado, GPO: Tori/ASE/PCC, RO_Ghoul: Kaneki 
+[GAMES]: Wisteria2, GPO, RO_Ghoul
+
