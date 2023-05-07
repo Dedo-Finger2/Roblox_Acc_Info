@@ -18,7 +18,7 @@
 
 </head>
 
-<body>
+<body style="background-color: #444;">
     <header>
         <!-- place navbar here -->
     </header>

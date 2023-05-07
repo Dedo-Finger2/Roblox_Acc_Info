@@ -1,7 +1,8 @@
 <?php
-    use App\Controller\AccountController;
-    require_once("../autoload.php");
-    $id = $_GET['id'];
+use App\Controller\AccountController;
+
+require_once("../autoload.php");
+$id = $_GET['id'];
 ?>
 <!doctype html>
 <html lang="pt-br">
@@ -18,15 +19,17 @@
 
 </head>
 
-<body>
+<body style="background-color: #444;">
     <header>
         <!-- place navbar here -->
     </header>
-        <?php 
-            $formGame = new AccountController();
-            echo $formGame->createForm(true);
-            $formGame->editForm($id); 
+    <div class="container">
+        <?php
+        $formGame = new AccountController();
+        echo $formGame->createForm(true);
+        $formGame->editForm($id);
         ?>
+    </div>
     <footer>
         <!-- place footer here -->
     </footer>

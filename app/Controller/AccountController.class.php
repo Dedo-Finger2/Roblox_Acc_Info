@@ -14,37 +14,75 @@ class AccountController
     {
         if ($editar != true) {
             $form =
-                '<form method="post" action="../app/Tests/processform.test.php">
-                <label for="username">Username:</label>
-                <input type="text" name="username" id="username">
+                '
+                <div class="mb-3">
+                    <form method="post" action="../app/Tests/processform.test.php">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Username</label>
+                            <input type="text" name="username" class="form-control" id="exampleFormControlInput1" placeholder="dadeds2..." aria-labelledby="passwordHelpBlock">
+                            <div id="passwordHelpBlock" class="form-text">
+                                The username of your Roblox account.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Info</label>
+                            <textarea name="info" placeholder="JOGO: ITEM, JOGO2: ITEM2" class="form-control" id="exampleFormControlTextarea1" rows="3" aria-labelledby="passwordHelpBlock"></textarea>
+                            <div id="passwordHelpBlock" class="form-text">
+                                Some information about what your account has in some games.
+                            </div>
+                        </div>
 
-                <label for="info">Info:</label>
-                <textarea name="info" id="info"></textarea>
-
-                <label for="games">Games:</label>
-                <textarea name="games" id="games"></textarea>
-
-                <input type="submit" value="Submit" name="submitAccount">
-            </form>';
+                        <button type="submit" class="btn btn-success" value="Submit" name="submitAccount">Create</button>
+                    </form>
+                </div>';
 
             // É necessário dar um ECHO nesse método para que o form seja exibido
             return $form;
         } else {
             $form =
-                '<form method="post" action="../app/Tests/processform.test.php">
-                <label for="username">Username:</label>
-                <input type="text" name="username" id="username">
-
-                <input type="hidden" name="id">
-
-                <label for="info">Info:</label>
-                <textarea name="info" id="info"></textarea>
-
-                <label for="games">Games:</label>
-                <textarea name="games" id="games"></textarea>
-
-                <input type="submit" value="Editar" name="editAccount">
-            </form>';
+                '
+                <div class="container-fluid vh-100">
+                    <div class="row align-items-center justify-content-center vh-100">
+                        <div class="col-md-5">
+                            <div class="bg-primary shadow-sm p-4" style="background-image: linear-gradient(to bottom, #007bff, #4d94ff); border-radius: 15px;">
+                                <form method="post" action="../app/Tests/processform.test.php">
+                                    <h3 class="text-center text-white">Roblox Account Info</h3>
+                                    <div class="d-flex align-items-center">
+                                        <img src="../assets/img/whiteLogo.png" alt="Logo" width="105" height="98" class="mx-auto">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label text-white fw-bold">Username</label>
+                                        <input type="text" name="username" class="form-control" id="exampleFormControlInput1" placeholder="dadeds2..." aria-labelledby="passwordHelpBlock">
+                                        <div id="passwordHelpBlock" class="form-text text-white text">
+                                            The username of your Roblox account.
+                                        </div>
+                                    </div>
+                
+                                    <input type="hidden" name="id">
+                
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlTextarea1" class="form-label text-white fw-bold">Info</label>
+                                        <textarea name="info" placeholder="JOGO: ITEM, JOGO2: ITEM2" class="form-control" id="exampleFormControlTextarea1" rows="3" aria-labelledby="passwordHelpBlock"></textarea>
+                                        <div id="passwordHelpBlock" class="form-text text-white">
+                                            Some information about what your account has in some games.
+                                        </div>
+                                    </div>
+                
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlTextarea1" class="form-label text-white fw-bold">Games</label>
+                                        <textarea name="games" placeholder="JOGO: ITEM, JOGO2: ITEM2" class="form-control" id="exampleFormControlTextarea1" rows="3" aria-labelledby="passwordHelpBlock"></textarea>
+                                        <div id="passwordHelpBlock" class="form-text text-white">
+                                            Games your account has something important.
+                                        </div>
+                                    </div>
+                
+                                    <button type="submit" class="btn btn-success text-white" value="Submit" name="editAccount">Edit</button>
+                                    <button class="btn btn-danger float-end" name="cancel">Cancel</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>';
 
             // É necessário dar um ECHO nesse método para que o form seja exibido
             return $form;
@@ -236,7 +274,7 @@ class AccountController
             '<form method="post" action="../app/Tests/processform.test.php">
                 <h1>Deseja realmente apagar essa conta?</h1>
                 <input type="submit" value="Deletar" name="delete">
-                <input type="hidden" name="id" value="'.$account_id.'"></input>
+                <input type="hidden" name="id" value="' . $account_id . '"></input>
             </form>';
         echo $form;
         // instanciando a seleção dos dados
@@ -250,17 +288,19 @@ class AccountController
         $info = unserialize($row['info']);
         $games = unserialize($row['games']);
         $username = $row['username'];
-        
+
         echo "<div>";
         echo "<b>Conta:</b> $username";
         echo "<br><br><b>Info:</b><br>";
         foreach ($info as $jogo => $item) {
-            echo($jogo . " - " . $item . "<br>");
-        };
+            echo ($jogo . " - " . $item . "<br>");
+        }
+        ;
         echo "<br><b>Games:</b><br>";
         foreach ($games as $jogo) {
-            echo($jogo ."<br>");
-        };
+            echo ($jogo . "<br>");
+        }
+        ;
         echo "</div>";
 
         // É necessário dar um ECHO nesse método para que o form seja exibido

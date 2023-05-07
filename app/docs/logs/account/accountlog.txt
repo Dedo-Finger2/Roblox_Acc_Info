@@ -52,3 +52,45 @@
 [INFO]: GPO: Tori/Magma/Gomu, Wisteria2: Kamado, Shinobi Life2: Kamui, Mighty Omega: Ohman 
 [GAMES]: GPO, Wisteria2, Shinobi Life2, Mighty Omega
 
+[DATA]: 07-05-2023 
+[HORA]: 16:21:26 
+[AÇÃO]: Nova conta criada: Testando
+[INFO]: Jogo1: Legal, Jogo2: Mais legal ainda 
+[GAMES]: Jogo1, Jogo2
+
+[DATA]: 07-05-2023 
+[HORA]: 16:25:24 
+[AÇÃO]: Conta editada[ANTIGO]: dadeds2
+[INFO]: GPO: Tori/Magma/Gomu, Wisteria2: Kamado, Shinobi Life2: Kamui, Mighty Omega: Ohman 
+[GAMES]: GPO, Wisteria2, Shinobi Life2, Mighty Omega
+
+[DATA]: 07-05-2023 
+[HORA]: 16:25:24 
+[AÇÃO]: Conta editada[NOVA]: dadeds2
+[INFO]: GPO: Tori/Magma/Gomu, Wisteria2: Kamado, Shinobi Life2: Kamui, Mighty Omega: Ohman, Jogo1: teste 
+[GAMES]: GPO, Wisteria2, Shinobi Life2, Mighty Omega, Jogo1
+
+[DATA]: 07-05-2023 
+[HORA]: 16:26:13 
+[AÇÃO]: Conta editada[ANTIGO]: Testando
+[INFO]: Jogo1: Legal, Jogo2: Mais legal ainda 
+[GAMES]: Jogo1, Jogo2
+
+[DATA]: 07-05-2023 
+[HORA]: 16:26:13 
+[AÇÃO]: Conta editada[NOVA]: Testando
+[INFO]: GPO: Legal-Legal no mi, Wisteria2: Hybrid 
+[GAMES]: GPO, Wisteria2
+
+[DATA]: 07-05-2023 
+[HORA]: 16:53:19 
+[AÇÃO]: Conta editada[ANTIGO]: dadeds3
+[INFO]: GPO: Mera, Wisteria2: Agatsuma 
+[GAMES]: GPO, Wisteria2
+
+[DATA]: 07-05-2023 
+[HORA]: 16:53:19 
+[AÇÃO]: Conta editada[NOVA]: dadeds3
+[INFO]: GPO: Mera, Wisteria2: Agatsuma 
+[GAMES]: GPO, Wisteria2
+
