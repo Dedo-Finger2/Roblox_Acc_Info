@@ -14,7 +14,7 @@ class AccountController
     {
         if ($editar != true) {
             $form =
-                '<form method="post" action="processform.test.php">
+                '<form method="post" action="../app/Tests/processform.test.php">
                 <label for="username">Username:</label>
                 <input type="text" name="username" id="username">
 

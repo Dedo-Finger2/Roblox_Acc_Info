@@ -15,7 +15,7 @@ class GameController
     {
         if ($editar != true) {
             $form =
-                '<form method="post" action="processform.test.php">
+                '<form method="post" action="../app/Tests/processform.test.php">
                 <label for="name">Name:</label>
                 <input type="text" name="gameName" id="name">
 

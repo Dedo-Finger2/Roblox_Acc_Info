@@ -8,17 +8,30 @@ require_once("../../autoload.php");
 if (isset($_POST['submitGame'])) {
     $id = $gameForm = (new GameController())->storeData($_POST);
     echo "Dados salvos com sucesso! ID: " . $id;
+    ?>
+    <script>
+        setTimeout(function () {
+            window.location.href = '../../pages/gameCreateForm.php';
+        }, 3000); // 5000 milissegundos = 5 segundos
+    </script>
+    <?php
     exit();
 
 
 } elseif (isset($_POST['submitAccount'])) {
     $id = $form = (new AccountController())->storeData($_POST);
     echo "Dados salvos com sucesso! ID: " . $id;
+    ?>
+    <script>
+        setTimeout(function () {
+            window.location.href = '../../pages/accountCreateForm.php';
+        }, 3000); // 5000 milissegundos = 5 segundos
+    </script>
+    <?php
     exit();
-}
 
 
-if (isset($_POST['editGame'])) {
+} elseif (isset($_POST['editGame'])) {
     $id = $gameForm = (new GameController())->updateData($_POST['id'], $_POST);
     echo "Dados editados com sucesso! ID: " . $id;
     ?>
