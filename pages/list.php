@@ -55,7 +55,8 @@ $resultadoGames = $conexao->query("SELECT * FROM games");
                                 Dropdown
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item btn btn-primary" href="accountCreateForm.php">New account</a></li>
+                                <li><a class="dropdown-item btn btn-primary" href="accountCreateForm.php">New
+                                        account</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
@@ -175,8 +176,8 @@ $resultadoGames = $conexao->query("SELECT * FROM games");
 
         <div class="row">
             <div class="col-md-12 mb-5 table-responsive"></div>
-            <section class="content">
-                <div class="container-fluid">
+                <section class="content">
+                <div class="container-fluid mb-5 table-responsive">
                     <div class="row">
                         <div class="container-fluid">
                             <!-- CORPO DA TABELA -->
@@ -215,7 +216,8 @@ $resultadoGames = $conexao->query("SELECT * FROM games");
                                                 <td>
                                                     <a href="gameEditForm.php?id=<?= $row['game_id'] ?>">Editar</a>
                                                     <a href="gameDeleteForm.php?id=<?= $row['game_id'] ?>">Deletar</a>
-                                                    <a href="../app/Tests/processform.test.php?id=<?= $row['game_id'] ?>">Refresh</a>
+                                                    <a
+                                                        href="../app/Tests/processform.test.php?id=<?= $row['game_id'] ?>">Refresh</a>
                                                 </td>
                                             </tr>
                                             <?php

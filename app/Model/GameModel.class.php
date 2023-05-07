@@ -139,7 +139,7 @@ class GameModel
             if (isset($rowOld['name'])) {
                 
                 // Registrando a ação no lOG: Dados antigos
-                \App\Config\Log::logGame("Conta editada[ANTIGO]: ".$rowOld['name'], $rowOld['description'], $rowOld['accounts']);
+                \App\Config\Log::logGame("Jogo editado[ANTIGO]: ".$rowOld['name'], $rowOld['description'], $rowOld['accounts']);
             } else {
                 echo "<div class='error'>O ID não consta no banco de dados!</div>";
                 exit();
@@ -155,7 +155,7 @@ class GameModel
                 $rowNew = $resultNew->fetch_assoc();
 
                 // Registrar a ação no LOG: Dados novos
-                \App\Config\Log::logGame("Conta editada[NOVA]: ".$rowNew['name'],$rowNew['description'], $rowNew['accounts']);
+                \App\Config\Log::logGame("Jogo editado[NOVO]: ".$rowNew['name'],$rowNew['description'], $rowNew['accounts']);
                 return $game_id; 
             } catch (Exception $e) {
 

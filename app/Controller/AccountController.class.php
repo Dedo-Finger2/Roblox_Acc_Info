@@ -212,8 +212,9 @@ class AccountController
                     }
                 }
                 $info_keys_string = implode(',', array_keys($info_array));
+                $info_keys_array = array_keys($info_array);
 
-                $result = (new \App\Model\AccountModel())->editAccount($account_id, $dados['username'], $info_array, $info_keys_string);
+                $result = (new \App\Model\AccountModel())->editAccount($account_id, $dados['username'], $info_array, $info_keys_array);
 
                 return $result;
             }
@@ -274,7 +275,7 @@ class AccountController
     {
         $deleteAccount = (new \App\Model\AccountModel())->deleteAccount($account_id);
 
-        if (empty($deleteAccount)) {
+        if (!empty($deleteAccount)) {
             return $deleteAccount;
         } else {
             return ("[ATENÇÃO] Ocorreu um erro ao tentar deletar a conta.");
