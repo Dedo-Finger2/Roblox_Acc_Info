@@ -24,7 +24,7 @@ class AccountController
                 <label for="games">Games:</label>
                 <textarea name="games" id="games"></textarea>
 
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" name="submitAccount">
             </form>';
 
             // É necessário dar um ECHO nesse método para que o form seja exibido
@@ -41,7 +41,7 @@ class AccountController
                 <label for="games">Games:</label>
                 <textarea name="games" id="games"></textarea>
 
-                <input type="submit" value="Editar" name="Editar">
+                <input type="submit" value="Editar" name="editAccount">
             </form>';
 
             // É necessário dar um ECHO nesse método para que o form seja exibido
@@ -172,7 +172,7 @@ class AccountController
         try {
             // Se os iputs forem vazios ele joga essa Exception
             if (empty($dados['username']) || empty($dados['info'])) {
-                throw new Exception('Por favor, preencha todos os cmapos obrigatórios.');
+                throw new Exception('Por favor, preencha todos os campos obrigatórios.');
             }
 
             if (($dados['username']) && ($dados['info'])) {
@@ -252,7 +252,10 @@ class AccountController
         foreach ($info as $jogo => $item) {
             echo($jogo . " - " . $item . "<br>");
         };
-        echo "<br><b>Games:</b> $games";
+        echo "<br><b>Games:</b><br>";
+        foreach ($games as $jogo) {
+            echo($jogo ."<br>");
+        };
         echo "</div>";
 
         // É necessário dar um ECHO nesse método para que o form seja exibido

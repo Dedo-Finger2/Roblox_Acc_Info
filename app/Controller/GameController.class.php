@@ -9,10 +9,42 @@ class GameController
 
     /**
      * Cria um formulário para criação de um novo jogo
+     * @param boolean $editar
      */
-    public function createForm()
+    public function createForm($editar)
     {
+        if ($editar != true) {
+            $form =
+                '<form method="post" action="processform.test.php">
+                <label for="name">Name:</label>
+                <input type="text" name="gameName" id="name">
 
+                <label for="description">Description:</label>
+                <textarea name="gameDescription" id="description"></textarea>
+
+                <input type="submit" value="Submit" name="submitGame">
+            </form>';
+
+            // É necessário dar um ECHO nesse método para que o form seja exibido
+            return $form;
+        } else {
+            $form =
+                '<form method="post" action="processform.test.php">
+            <label for="name">Name:</label>
+            <input type="text" name="gameName" id="name">
+
+            <label for="description">Description:</label>
+            <textarea name="gameDescription" id="description"></textarea>
+
+            <label for="accounts">Accounts:</label>
+            <textarea name="gameAccounts" id="accounts"></textarea>
+
+            <input type="submit" value="Editar" name="editGame">
+        </form>';
+
+            // É necessário dar um ECHO nesse método para que o form seja exibido
+            return $form;
+        }
     }
 
     /**
@@ -22,7 +54,56 @@ class GameController
      */
     public function storeData($data)
     {
+        require_once("../Config/Conexao.php");
 
+        try {
+            // Verifica se tudo foi preenchido
+            if (empty($data['gameName']) || empty($data['gameDescription'])) {
+                throw new Exception('Por favor, preencha todos os campos obrigatórios');
+            } else {
+                if (($data['gameName']) && ($data['gameDescription'])) {
+
+                    // Fazendo uma varedura no banco de dados
+                    $sql = "SELECT * FROM accounts";
+                    $resultado = mysqli_query($conexao, $sql);
+
+                    if (mysqli_num_rows($resultado) > 0) {
+
+                        // Array com as contas registradas no banco de dados que tem ligação com o jogo
+                        $accountsWithTheGame = array();
+
+                        while ($row = mysqli_fetch_assoc($resultado)) {
+                            $accountsGames = unserialize($row['games']);
+
+                            // Se na coluna GAMES da conta tiver o nome do jogo, então adicionar o nome da conta no array $accountWithGame
+                            if (is_array($accountsGames) && in_array($data['gameName'], $accountsGames)) {
+                                $accountsWithTheGame[] = $row['username'];
+                            }
+                        }
+
+                        // Se o array não for vazio...
+                        if (!empty($accountsWithTheGame)) {
+                            $createGame = ((new \App\Model\GameModel()))->createGame($data['gameName'], $data['gameDescription'], $accountsWithTheGame);
+                        } else {
+                            $accountsWithTheGame = ['Sem contas no momento'];
+                            $createGame = ((new \App\Model\GameModel()))->createGame($data['gameName'], $data['gameDescription'], $accountsWithTheGame);
+                            // echo "[ATENÇÃO] Não existe contas com esse jogo no banco de dados!";
+                        }
+
+
+                        if (is_integer($createGame)) {
+                            return $createGame;
+                        } else {
+                            throw new Exception("[ATENÇÃO] Ocorreu um erro ao criar a conta.");
+                        }
+                    } else {
+                        echo "[ATENÇÃO] Nenhum resultado encontrado";
+                    }
+                }
+            }
+        } catch (Exception $e) {
+            return $e->getMessage();
+        }
     }
 
     /**
@@ -31,7 +112,42 @@ class GameController
      */
     public function editForm($game_id)
     {
+        // Requirindo a conexão com o banco de dados
+        require_once("../Config/Conexao.php");
 
+        // Instanciando a seleção dos dados para serem exibidos dentro dos inputs
+        $sql = $conexao->prepare("SELECT * FROM games WHERE game_id = ?");
+        $sql->bind_param("i", $game_id);
+        $sql->execute();
+
+        $resultado = $sql->get_result();
+
+        // Verifica se a consulta foi executada com sucesso
+        if ($resultado) {
+            $dados = $resultado->fetch_assoc();
+        } else {
+            echo "<div class='error'>Ocorreu um erro na hora de fazer a consulta!</div>";
+            exit();
+        }
+
+        if ($dados !== null):
+
+            // Formata a saída do array associativo como uma string
+            $accounts = unserialize($dados['accounts']);
+
+            $dados['accounts'] = $accounts;
+
+            ?>
+            <script>
+                window.onload = function () {
+                    var localData = <?= json_encode($dados); ?>;
+                    document.querySelector('input[name="gameName"]').value = localData['name'];
+                    document.querySelector('textarea[name="gameDescription"]').value = localData['description'];
+                    document.querySelector('textarea[name="gameAccounts"]').value = localData['accounts'];
+                };
+            </script>
+            <?php
+        endif;
     }
 
     /**
@@ -41,16 +157,87 @@ class GameController
      */
     public function updateData($game_id, $dados)
     {
+        // Requirindo a conexão com o banco
+        require_once("../Config/Conexao.php");
 
+        try {
+            // Se os inputs forem vazios ele joga essa Exeception
+            if (empty($dados['gameName']) || empty($dados['gameDescription'])) {
+                throw new Exception('Por favor, preencha todos os campos obrigatórios.');
+            }
+
+            if (($dados['gameName']) && ($dados['gameDescription'])) {
+
+                // Fazendo uma varedura no banco de dados
+                $sql = "SELECT * FROM accounts";
+                $resultado = mysqli_query($conexao, $sql);
+
+                if (mysqli_num_rows($resultado) > 0) {
+
+                    // Array com as contas registradas no banco de dados que tem ligação com o jogo
+                    $accountsWithTheGame = array();
+
+                    while ($row = mysqli_fetch_assoc($resultado)) {
+                        $accountsGames = unserialize($row['games']);
+
+                        // Se na coluna GAMES da conta tiver o nome do jogo, então adicionar o nome da conta no array $accountWithGame
+                        if (is_array($accountsGames) && in_array($dados['gameName'], $accountsGames)) {
+                            $accountsWithTheGame[] = $row['username'];
+                        }
+                    }
+                    
+                    // Edita os dados do jogo e retorna o ID
+                    $result = (new \App\Model\GameModel())->editGame($game_id, $dados['gameName'], $dados['gameDescription'], $accountsWithTheGame);
+                    return $result;
+                }
+            }
+        } catch (Exception $e) {
+
+            // Se der um problema exibe esse erro
+            return '[ATENÇÃO] Ocorreu um erro ao tentar atualizar: ' . $e->getMessage();
+        }
     }
 
     /**
      * Abre um modal para confirmar deleção do game
      * @param int $game_id - ID do jogo que vai ser deletado
+     * @return mixed - Formulário de confirmação de deleção
      */
-    public function deleteForm()
+    public function deleteForm($game_id)
     {
+        // Requirindo a conexão com o banco de dados
+        require_once("../Config/Conexao.php");
 
+        $form = 
+            '<form method="post" action="processform.test.php">
+                <h1>Deseja realmente apagar esse jogo?</h1>
+                <input type="submit" value="Deletar" name="deleteGame">
+            </form>';
+        echo $form;
+
+        // Instanciando a seleção dos dados
+        $sql = $conexao->prepare("SELECT * FROM games WHERE game_id = ?");
+        $sql->bind_param("i", $game_id);
+        $sql->execute();
+
+        $resultado = $sql->get_result();
+        $row = $resultado->fetch_assoc();
+
+        $accounts = unserialize($row['accounts']);
+        $name = $row['name'];
+        $description = $row['description'];
+
+        echo "<div>";
+        echo "<b>Jogo:</b> $name";
+        echo "<br><br><b>Description: $description</b><br>";
+        echo "<br><b>Accounts:</b><br>";
+        foreach ($accounts as $conta) {
+            echo($conta ."<br>");
+        };
+        echo "</div>";
+
+        // É necessário dar um ECHO nesse método para que o form seja exibido
+        //return $form;
     }
 
     /**
@@ -59,6 +246,48 @@ class GameController
      */
     public function deleteData($game_id)
     {
-
+        try {
+            $deleteGame = (new \App\Model\GameModel())->deleteGame($game_id);
+            
+            if (!empty($deleteGame)) {
+                return $deleteGame;
+            } else {
+                return ("[ATENÇAÕ] Ocorreu um erro ao tentar deletar a conta.");
+            }
+        } catch(\mysqli_sql_exception $e) {
+            return "[ATENÇÃO]: Ocorreu um erro no banco ao deletar o jogo: " . $e->getMessage();
+        }
     }
+
+    /**
+     * Retorna as informações do jogo selecionado no banco de dados
+     * @param int $game_id - ID do jogo que vai ser mostrado as informações
+     * @return array - Array associativo com as informações do jogo selecionado
+     */
+    public function getGameInfo($game_id)
+    {
+        if (empty($game_id)) {
+            echo "[ATENÇÃO] ID inválido!";
+            exit();
+        }
+
+        try {
+            $game_info = (new \App\Model\GameModel())->getAll($game_id);
+            foreach ($game_info as $key => $value) {
+                echo "<br>";
+                echo $key . " => ";
+                if (is_array($value)) {
+                    foreach ($value as $conta) {
+                        echo $conta . ", ";
+                    }
+                } else {
+                    echo $value;
+                }
+
+            }
+        } catch (Exception $e) {
+            return $e->getMessage();
+        }
+    }
+
 }

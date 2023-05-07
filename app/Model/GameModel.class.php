@@ -70,7 +70,7 @@ class GameModel
     /**
      * Deleta um jogo do banco de dados
      * @param int $game_id - ID do jogo que vai ser apagado do banco de dados
-     * @return boolean - True se deu pra deletar, False caso o contrário
+     * @return mixed - ID da conta deletada
      */
     public function deleteGame($game_id)
     {
@@ -92,7 +92,7 @@ class GameModel
 
                     // Registrando a ação no LOG
                     \App\Config\Log::logGame("Game deletado: ".$row['name'], $row['description'], $row['accounts']);
-                    return true;
+                    return $game_id;
                 } else {
                     // Se o ID do jogo não existir, essa mensagem vai ser exibida
                     echo "<div class='error'>O ID informado não consta no banco de dados!</div>";
@@ -106,7 +106,7 @@ class GameModel
                 
                 // Exibindo o erro na tela
                 echo "<div class='error'>$errorMsg</div>";
-                return false;
+                return $game_id;
             }
         }
     }
@@ -117,7 +117,7 @@ class GameModel
      * @param string $name - Novo nome pro jogo sendo editado
      * @param string $description - Nova descrição pro jogo sendo editado
      * @param array $accounts - Novo array com as contas importantes que jogam esse jogo
-     * @return boolean - True se deu para editar, False caso contrário
+     * @return int - ID do jogo editado
      */
     public function editGame($game_id, $name, $description, $accounts)
     {
@@ -156,7 +156,7 @@ class GameModel
 
                 // Registrar a ação no LOG: Dados novos
                 \App\Config\Log::logGame("Conta editada[NOVA]: ".$rowNew['name'],$rowNew['description'], $rowNew['accounts']);
-                return true; 
+                return $game_id; 
             } catch (Exception $e) {
 
                 // Registrando o erro no LOG
@@ -165,9 +165,36 @@ class GameModel
 
                 // Exibindo o erro na tela
                 echo "<div class='error'>$errorMsg</div>";
-                return false;
+                return $game_id;
             }
         }
+    }
+
+    public function getAll($game_id)
+    {
+        /**
+         * Retorna todas as informações do jogo dentro de um array associativo
+         * @var string $name - Nome do jogo
+         * @var string $description - Descrição do jogo
+         * @var array $accounts - Contas do jogo
+         */
+
+        $sql = "SELECT * FROM games WHERE game_id='$game_id'";
+        $result = $this->conexao->query($sql);
+        $row = $result->fetch_assoc();
+
+        if ($row !== null) {
+            $game_info = [
+                '<b>[NAME]</b>' => $row['name'],
+                '<b>[DESCRIPTION]</b>' => $row['description'],
+                '<b>[ACCOUNTS]</b>' => unserialize($row['accounts']),
+            ];
+    
+            return $game_info;
+        } else {
+           return "[ATENÇÃO] Ocorreu um erro na consulta: ID não consta no banco de dados";
+        }
+        
     }
 
 }

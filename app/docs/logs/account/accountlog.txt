@@ -4,3 +4,117 @@
 [INFO]: Jogo1: item1, Jogo2: item2, Jogo7: item7, Jogo4: item4, Jogo9: item9, Jogo10: item10 
 [GAMES]: Jogo1, Jogo2, Jogo7, Jogo4, Jogo9, Jogo10
 
+[DATA]: 06-05-2023 
+[HORA]: 17:02:23 
+[AÇÃO]: Nova conta criada: Teste
+[INFO]: Jogo1: Mera, Jogo2: Tori 
+[GAMES]: Jogo1, Jogo2
+
+[DATA]: 06-05-2023 
+[HORA]: 17:11:36 
+[AÇÃO]: Nova conta criada: sou o ultimo com Wisteria 2
+[INFO]: Wisteria2: Kamado 
+[GAMES]: Wisteria2
+
+[DATA]: 06-05-2023 
+[HORA]: 17:27:14 
+[AÇÃO]: Nova conta criada: Mais um para wisteria2
+[INFO]: Wisteria2: Testando, GPO: Tori-Tori 
+[GAMES]: Wisteria2, GPO
+
+[DATA]: 06-05-2023 
+[HORA]: 17:28:21 
+[AÇÃO]: Conta editada[ANTIGO]: Mais um para wisteria2
+[INFO]: Wisteria2: Testando, GPO: Tori-Tori 
+[GAMES]: Wisteria2, GPO
+
+[DATA]: 06-05-2023 
+[HORA]: 17:28:21 
+[AÇÃO]: Conta editada[NOVA]: Mais um para wisteria2
+[INFO]: Wisteria2: Kamado, GPO: Tori-Tori 
+[GAMES]: Wisteria2, GPO
+
+[DATA]: 06-05-2023 
+[HORA]: 17:29:00 
+[AÇÃO]: Conta editada[ANTIGO]: Mais um para wisteria2
+[INFO]: Wisteria2: Kamado, GPO: Tori-Tori 
+[GAMES]: Wisteria2, GPO
+
+[DATA]: 06-05-2023 
+[HORA]: 17:29:00 
+[AÇÃO]: Conta editada[NOVA]: Mais um para wisteria2
+[INFO]: Wisteria2: Kamado, GPO: Tori-Tori 
+[GAMES]: Wisteria2, GPO
+
+[DATA]: 06-05-2023 
+[HORA]: 17:30:04 
+[AÇÃO]: Conta editada[ANTIGO]: Mais um para wisteria2
+[INFO]: Wisteria2: Kamado, GPO: Tori-Tori 
+[GAMES]: Wisteria2, GPO
+
+[DATA]: 06-05-2023 
+[HORA]: 17:30:04 
+[AÇÃO]: Conta editada[NOVA]: Mais um para wisteria2
+[INFO]: Wisteria2: Kamado/Teste/Outro teste, GPO: Tori-Tori 
+[GAMES]: Wisteria2, GPO
+
+[DATA]: 06-05-2023 
+[HORA]: 17:30:36 
+[AÇÃO]: Conta editada[ANTIGO]: Mais um para wisteria2
+[INFO]: Wisteria2: Kamado/Teste/Outro teste, GPO: Tori-Tori 
+[GAMES]: Wisteria2, GPO
+
+[DATA]: 06-05-2023 
+[HORA]: 17:30:36 
+[AÇÃO]: Conta editada[NOVA]: Mais um para wisteria2
+[INFO]: Wisteria2: Kamado/ Teste/ Outro teste, GPO: Tori-Tori 
+[GAMES]: Wisteria2, GPO
+
+[DATA]: 06-05-2023 
+[HORA]: 17:31:04 
+[AÇÃO]: Conta editada[ANTIGO]: Mais um para wisteria2
+[INFO]: Wisteria2: Kamado/ Teste/ Outro teste, GPO: Tori-Tori 
+[GAMES]: Wisteria2, GPO
+
+[DATA]: 06-05-2023 
+[HORA]: 17:31:04 
+[AÇÃO]: Conta editada[NOVA]: Mais um para wisteria2
+[INFO]: Wisteria2: Kamado | Teste | Outro teste, GPO: Tori-Tori | Mera-Mera 
+[GAMES]: Wisteria2, GPO
+
+[DATA]: 06-05-2023 
+[HORA]: 17:31:50 
+[AÇÃO]: Conta editada[ANTIGO]: Mais um para wisteria2
+[INFO]: Wisteria2: Kamado | Teste | Outro teste, GPO: Tori-Tori | Mera-Mera 
+[GAMES]: Wisteria2, GPO
+
+[DATA]: 06-05-2023 
+[HORA]: 17:31:50 
+[AÇÃO]: Conta editada[NOVA]: Mais um para wisteria2
+[INFO]: Wisteria2: Kamado/Teste/Outro teste, GPO: Tori-Tori/Mera-Mera 
+[GAMES]: Wisteria2, GPO
+
+[DATA]: 06-05-2023 
+[HORA]: 17:33:48 
+[AÇÃO]: Nova conta criada: ESTOU NO WISTERIA
+[INFO]: Wisteria2: Algo, GPO: Algo a mais 
+[GAMES]: Wisteria2, GPO
+
+[DATA]: 06-05-2023 
+[HORA]: 17:34:39 
+[AÇÃO]: Nova conta criada: TESTE WISTERIA2
+[INFO]: Wisteria2: Algo/Mais algo/Ultima coisa, GPO: Fruta 
+[GAMES]: Wisteria2, GPO
+
+[DATA]: 06-05-2023 
+[HORA]: 17:41:07 
+[AÇÃO]: Conta deletada: TESTE WISTERIA2
+[INFO]: Wisteria2: Algo/Mais algo/Ultima coisa, GPO: Fruta 
+[GAMES]: Wisteria2, GPO
+
+[DATA]: 07-05-2023 
+[HORA]: 00:12:02 
+[AÇÃO]: Nova conta criada: dadeds2
+[INFO]: Wisteria2: Kamado, GPO: Tori/ASE/PCC, RO_Ghoul: Kaneki 
+[GAMES]: Wisteria2, GPO, RO_Ghoul
+
