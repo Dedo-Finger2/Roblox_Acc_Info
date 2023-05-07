@@ -1,468 +1,84 @@
 [DATA]: 07-05-2023 
-[HORA]: 10:43:26 
-[AÇÃO]: Conta editada[ANTIGO]: GPO 
-[DESCRIPTION]: jogo de one piece pro roblox, eu acho legal 
-[ACCOUNTS]: dadeds2,spider0742
-
-[DATA]: 07-05-2023 
-[HORA]: 10:43:26 
-[AÇÃO]: Conta editada[NOVA]: GPO 
+[HORA]: 16:01:49 
+[AÇÃO]: Jogo editado[ANTIGO]: GPO 
 [DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: dadeds2,spider0742
+[ACCOUNTS]: dadeds2,dadeds3
 
 [DATA]: 07-05-2023 
-[HORA]: 10:44:48 
-[AÇÃO]: Conta editada[ANTIGO]: GPO 
+[HORA]: 16:01:49 
+[AÇÃO]: Jogo editada[NOVO]: GPO 
 [DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: dadeds2,spider0742
+[ACCOUNTS]: dadeds2,dadeds3,Teste de account,Teste com uma info,Outro teste legal
 
 [DATA]: 07-05-2023 
-[HORA]: 10:44:48 
-[AÇÃO]: Conta editada[NOVA]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: dadeds2,spider0742
-
-[DATA]: 07-05-2023 
-[HORA]: 10:45:30 
-[AÇÃO]: Conta editada[ANTIGO]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: dadeds2,spider0742
-
-[DATA]: 07-05-2023 
-[HORA]: 10:45:30 
-[AÇÃO]: Conta editada[NOVA]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: dadeds2,spider0742
-
-[DATA]: 07-05-2023 
-[HORA]: 10:45:50 
-[AÇÃO]: Conta editada[ANTIGO]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: dadeds2,spider0742
-
-[DATA]: 07-05-2023 
-[HORA]: 10:45:50 
-[AÇÃO]: Conta editada[NOVA]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: dadeds2,spider0742
-
-[DATA]: 07-05-2023 
-[HORA]: 10:47:37 
-[AÇÃO]: Conta editada[ANTIGO]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: dadeds2,spider0742
-
-[DATA]: 07-05-2023 
-[HORA]: 10:47:37 
-[AÇÃO]: Conta editada[NOVA]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: dadeds2,spider0742
-
-[DATA]: 07-05-2023 
-[HORA]: 10:48:13 
-[AÇÃO]: Conta editada[ANTIGO]: Mighty Omega 
-[DESCRIPTION]: jogo legal 
-[ACCOUNTS]: Sem contas no momento
-
-[DATA]: 07-05-2023 
-[HORA]: 10:48:13 
-[AÇÃO]: Conta editada[NOVA]: Mighty Omega 
-[DESCRIPTION]: jogo legal 
-[ACCOUNTS]: 
-
-[DATA]: 07-05-2023 
-[HORA]: 10:49:03 
-[AÇÃO]: Conta editada[ANTIGO]: Mighty Omega 
-[DESCRIPTION]: jogo legal 
-[ACCOUNTS]: 
-
-[DATA]: 07-05-2023 
-[HORA]: 10:49:03 
-[AÇÃO]: Conta editada[NOVA]: Mighty Omega 
-[DESCRIPTION]: jogo legal 
-[ACCOUNTS]: 
-
-[DATA]: 07-05-2023 
-[HORA]: 10:49:25 
-[AÇÃO]: Game deletado: Mighty Omega 
-[DESCRIPTION]: jogo legal 
-[ACCOUNTS]: 
-
-[DATA]: 07-05-2023 
-[HORA]: 10:50:03 
-[AÇÃO]: Conta editada[ANTIGO]: Wisteria2 
+[HORA]: 16:02:39 
+[AÇÃO]: Jogo editado[ANTIGO]: Wisteria2 
 [DESCRIPTION]: jogo de demon slayer no roblox 
-[ACCOUNTS]: dadeds2
+[ACCOUNTS]: dadeds2,dadeds3
 
 [DATA]: 07-05-2023 
-[HORA]: 10:50:03 
-[AÇÃO]: Conta editada[NOVA]: Wisteria2 
+[HORA]: 16:02:39 
+[AÇÃO]: Jogo editada[NOVO]: Wisteria2 
 [DESCRIPTION]: jogo de demon slayer no roblox 
-[ACCOUNTS]: dadeds2,spider0742
+[ACCOUNTS]: dadeds2,dadeds3,Outro teste legal
 
 [DATA]: 07-05-2023 
-[HORA]: 10:50:44 
-[AÇÃO]: Conta editada[ANTIGO]: GPO 
+[HORA]: 16:02:43 
+[AÇÃO]: Jogo editado[ANTIGO]: GPO 
 [DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: dadeds2,spider0742
+[ACCOUNTS]: dadeds2,dadeds3,Teste de account,Teste com uma info,Outro teste legal
 
 [DATA]: 07-05-2023 
-[HORA]: 10:50:44 
-[AÇÃO]: Conta editada[NOVA]: GPO 
+[HORA]: 16:02:43 
+[AÇÃO]: Jogo editada[NOVO]: GPO 
 [DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: dadeds2,spider0742
+[ACCOUNTS]: dadeds2,dadeds3,Teste de account,Teste com uma info,Outro teste legal
 
 [DATA]: 07-05-2023 
-[HORA]: 10:57:52 
-[AÇÃO]: Conta editada[ANTIGO]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: dadeds2,spider0742
-
-[DATA]: 07-05-2023 
-[HORA]: 10:57:52 
-[AÇÃO]: Conta editada[NOVA]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742,spider0742 deleted
-
-[DATA]: 07-05-2023 
-[HORA]: 10:58:02 
-[AÇÃO]: Conta editada[ANTIGO]: Wisteria2 
+[HORA]: 16:03:01 
+[AÇÃO]: Jogo editado[ANTIGO]: Wisteria2 
 [DESCRIPTION]: jogo de demon slayer no roblox 
-[ACCOUNTS]: dadeds2,spider0742
+[ACCOUNTS]: dadeds2,dadeds3,Outro teste legal
 
 [DATA]: 07-05-2023 
-[HORA]: 10:58:02 
-[AÇÃO]: Conta editada[NOVA]: Wisteria2 
+[HORA]: 16:03:01 
+[AÇÃO]: Jogo editada[NOVO]: Wisteria2 
 [DESCRIPTION]: jogo de demon slayer no roblox 
-[ACCOUNTS]: spider0742,spider0742 deleted
+[ACCOUNTS]: dadeds2,dadeds3
 
 [DATA]: 07-05-2023 
-[HORA]: 10:59:59 
-[AÇÃO]: Conta editada[ANTIGO]: GPO 
+[HORA]: 16:03:04 
+[AÇÃO]: Jogo editado[ANTIGO]: GPO 
 [DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742,spider0742 deleted
+[ACCOUNTS]: dadeds2,dadeds3,Teste de account,Teste com uma info,Outro teste legal
 
 [DATA]: 07-05-2023 
-[HORA]: 10:59:59 
-[AÇÃO]: Conta editada[NOVA]: GPO 
+[HORA]: 16:03:04 
+[AÇÃO]: Jogo editada[NOVO]: GPO 
 [DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742
+[ACCOUNTS]: dadeds2,dadeds3,Teste de account,Teste com uma info
 
 [DATA]: 07-05-2023 
-[HORA]: 11:03:06 
-[AÇÃO]: Conta editada[ANTIGO]: GPO 
+[HORA]: 16:06:14 
+[AÇÃO]: Jogo editado[ANTIGO]: GPO 
 [DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742
+[ACCOUNTS]: dadeds2,dadeds3,Teste de account,Teste com uma info
 
 [DATA]: 07-05-2023 
-[HORA]: 11:03:06 
-[AÇÃO]: Conta editada[NOVA]: GPO 
+[HORA]: 16:06:14 
+[AÇÃO]: Jogo editado[NOVO]: GPO 
 [DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742
+[ACCOUNTS]: dadeds2,dadeds3,Teste de account
 
 [DATA]: 07-05-2023 
-[HORA]: 11:03:28 
-[AÇÃO]: Conta editada[ANTIGO]: Shinobi life2 
-[DESCRIPTION]: Jogo de naruto lá 
-[ACCOUNTS]: keydo_finger,dedo_finger,dedo_ff
-
-[DATA]: 07-05-2023 
-[HORA]: 11:03:28 
-[AÇÃO]: Conta editada[NOVA]: Shinobi life2 
-[DESCRIPTION]: Jogo de naruto lá 
-[ACCOUNTS]: 
-
-[DATA]: 07-05-2023 
-[HORA]: 11:03:33 
-[AÇÃO]: Conta editada[ANTIGO]: Wisteria2 
-[DESCRIPTION]: jogo de demon slayer no roblox 
-[ACCOUNTS]: spider0742,spider0742 deleted
-
-[DATA]: 07-05-2023 
-[HORA]: 11:03:33 
-[AÇÃO]: Conta editada[NOVA]: Wisteria2 
-[DESCRIPTION]: jogo de demon slayer no roblox 
-[ACCOUNTS]: spider0742
-
-[DATA]: 07-05-2023 
-[HORA]: 11:03:46 
-[AÇÃO]: Conta editada[ANTIGO]: GPO 
+[HORA]: 16:06:42 
+[AÇÃO]: Jogo editado[ANTIGO]: GPO 
 [DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742
+[ACCOUNTS]: dadeds2,dadeds3,Teste de account
 
 [DATA]: 07-05-2023 
-[HORA]: 11:03:46 
-[AÇÃO]: Conta editada[NOVA]: GPO 
+[HORA]: 16:06:42 
+[AÇÃO]: Jogo editado[NOVO]: GPO 
 [DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742
-
-[DATA]: 07-05-2023 
-[HORA]: 11:04:16 
-[AÇÃO]: Conta editada[ANTIGO]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742
-
-[DATA]: 07-05-2023 
-[HORA]: 11:04:16 
-[AÇÃO]: Conta editada[NOVA]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742,teste
-
-[DATA]: 07-05-2023 
-[HORA]: 11:04:22 
-[AÇÃO]: Conta editada[ANTIGO]: Wisteria2 
-[DESCRIPTION]: jogo de demon slayer no roblox 
-[ACCOUNTS]: spider0742
-
-[DATA]: 07-05-2023 
-[HORA]: 11:04:22 
-[AÇÃO]: Conta editada[NOVA]: Wisteria2 
-[DESCRIPTION]: jogo de demon slayer no roblox 
-[ACCOUNTS]: spider0742,teste
-
-[DATA]: 07-05-2023 
-[HORA]: 11:13:25 
-[AÇÃO]: Conta editada[ANTIGO]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742,teste
-
-[DATA]: 07-05-2023 
-[HORA]: 11:13:25 
-[AÇÃO]: Conta editada[NOVA]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742,teste,Opa
-
-[DATA]: 07-05-2023 
-[HORA]: 11:19:14 
-[AÇÃO]: Conta editada[ANTIGO]: Wisteria2 
-[DESCRIPTION]: jogo de demon slayer no roblox 
-[ACCOUNTS]: spider0742,teste
-
-[DATA]: 07-05-2023 
-[HORA]: 11:19:14 
-[AÇÃO]: Conta editada[NOVA]: Wisteria2 
-[DESCRIPTION]: jogo de demon slayer no roblox 
-[ACCOUNTS]: spider0742,teste,Opa
-
-[DATA]: 07-05-2023 
-[HORA]: 11:20:49 
-[AÇÃO]: Conta editada[ANTIGO]: Shinobi life2 
-[DESCRIPTION]: Jogo de naruto lá 
-[ACCOUNTS]: 
-
-[DATA]: 07-05-2023 
-[HORA]: 11:20:49 
-[AÇÃO]: Conta editada[NOVA]: Shinobi life2 
-[DESCRIPTION]: Jogo de naruto lá 
-[ACCOUNTS]: 
-
-[DATA]: 07-05-2023 
-[HORA]: 11:39:41 
-[AÇÃO]: Novo jogo criado: Mighty Omega 
-[DESCRIPTION]: Jogo de luta 
-[ACCOUNTS]: Vai funcionar2
-
-[DATA]: 07-05-2023 
-[HORA]: 11:39:58 
-[AÇÃO]: Conta editada[ANTIGO]: Shinobi life2 
-[DESCRIPTION]: Jogo de naruto lá 
-[ACCOUNTS]: 
-
-[DATA]: 07-05-2023 
-[HORA]: 11:39:58 
-[AÇÃO]: Conta editada[NOVA]: Shinobi life2 
-[DESCRIPTION]: Jogo de naruto lá 
-[ACCOUNTS]: 
-
-[DATA]: 07-05-2023 
-[HORA]: 11:40:11 
-[AÇÃO]: Conta editada[ANTIGO]: Shinobi life2 
-[DESCRIPTION]: Jogo de naruto lá 
-[ACCOUNTS]: 
-
-[DATA]: 07-05-2023 
-[HORA]: 11:40:11 
-[AÇÃO]: Conta editada[NOVA]: Shinobi Life2 
-[DESCRIPTION]: Jogo de naruto lá 
-[ACCOUNTS]: Vai funcionar
-
-[DATA]: 07-05-2023 
-[HORA]: 11:40:23 
-[AÇÃO]: Conta editada[ANTIGO]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742,teste,Opa
-
-[DATA]: 07-05-2023 
-[HORA]: 11:40:23 
-[AÇÃO]: Conta editada[NOVA]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742,teste,Opa,Vai funcionar
-
-[DATA]: 07-05-2023 
-[HORA]: 11:41:35 
-[AÇÃO]: Conta editada[ANTIGO]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742,teste,Opa,Vai funcionar
-
-[DATA]: 07-05-2023 
-[HORA]: 11:41:35 
-[AÇÃO]: Conta editada[NOVA]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742,teste,Opa,Vai funcionar
-
-[DATA]: 07-05-2023 
-[HORA]: 11:41:51 
-[AÇÃO]: Conta editada[ANTIGO]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742,teste,Opa,Vai funcionar
-
-[DATA]: 07-05-2023 
-[HORA]: 11:41:51 
-[AÇÃO]: Conta editada[NOVA]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742,teste,Opa,Vai funcionar
-
-[DATA]: 07-05-2023 
-[HORA]: 11:42:51 
-[AÇÃO]: Conta editada[ANTIGO]: Mighty Omega 
-[DESCRIPTION]: Jogo de luta 
-[ACCOUNTS]: Vai funcionar2
-
-[DATA]: 07-05-2023 
-[HORA]: 11:42:51 
-[AÇÃO]: Conta editada[NOVA]: Mighty Omega 
-[DESCRIPTION]: Jogo de luta 
-[ACCOUNTS]: SOU DO GPO
-
-[DATA]: 07-05-2023 
-[HORA]: 11:49:46 
-[AÇÃO]: Conta editada[ANTIGO]: Mighty Omega 
-[DESCRIPTION]: Jogo de luta 
-[ACCOUNTS]: SOU DO GPO
-
-[DATA]: 07-05-2023 
-[HORA]: 11:49:46 
-[AÇÃO]: Conta editada[NOVA]: Mighty Omega 
-[DESCRIPTION]: Jogo de luta 
-[ACCOUNTS]: SOU DO GPO
-
-[DATA]: 07-05-2023 
-[HORA]: 11:50:18 
-[AÇÃO]: Conta editada[ANTIGO]: Mighty Omega 
-[DESCRIPTION]: Jogo de luta 
-[ACCOUNTS]: SOU DO GPO
-
-[DATA]: 07-05-2023 
-[HORA]: 11:50:18 
-[AÇÃO]: Conta editada[NOVA]: Mighty Omega 
-[DESCRIPTION]: Jogo de luta 
-[ACCOUNTS]: SOU DO GPO
-
-[DATA]: 07-05-2023 
-[HORA]: 12:11:05 
-[AÇÃO]: Conta editada[ANTIGO]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742,teste,Opa,Vai funcionar
-
-[DATA]: 07-05-2023 
-[HORA]: 12:11:05 
-[AÇÃO]: Conta editada[NOVA]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742,teste,Opa,Vai funcionar
-
-[DATA]: 07-05-2023 
-[HORA]: 12:11:12 
-[AÇÃO]: Conta editada[ANTIGO]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742,teste,Opa,Vai funcionar
-
-[DATA]: 07-05-2023 
-[HORA]: 12:11:12 
-[AÇÃO]: Conta editada[NOVA]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742,teste,Opa,Vai funcionar
-
-[DATA]: 07-05-2023 
-[HORA]: 12:12:08 
-[AÇÃO]: Conta editada[ANTIGO]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742,teste,Opa,Vai funcionar
-
-[DATA]: 07-05-2023 
-[HORA]: 12:12:08 
-[AÇÃO]: Conta editada[NOVA]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742,teste,Opa,Vai funcionar
-
-[DATA]: 07-05-2023 
-[HORA]: 12:15:21 
-[AÇÃO]: Conta editada[ANTIGO]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: spider0742,teste,Opa,Vai funcionar
-
-[DATA]: 07-05-2023 
-[HORA]: 12:15:21 
-[AÇÃO]: Conta editada[NOVA]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: dadeds2
-
-[DATA]: 07-05-2023 
-[HORA]: 12:15:25 
-[AÇÃO]: Conta editada[ANTIGO]: Shinobi Life2 
-[DESCRIPTION]: Jogo de naruto lá 
-[ACCOUNTS]: Vai funcionar
-
-[DATA]: 07-05-2023 
-[HORA]: 12:15:25 
-[AÇÃO]: Conta editada[NOVA]: Shinobi Life2 
-[DESCRIPTION]: Jogo de naruto lá 
-[ACCOUNTS]: dadeds2
-
-[DATA]: 07-05-2023 
-[HORA]: 12:15:52 
-[AÇÃO]: Conta editada[ANTIGO]: Mighty Omega 
-[DESCRIPTION]: Jogo de luta 
-[ACCOUNTS]: SOU DO GPO
-
-[DATA]: 07-05-2023 
-[HORA]: 12:15:52 
-[AÇÃO]: Conta editada[NOVA]: Mighty Omega 
-[DESCRIPTION]: Jogo de luta 
-[ACCOUNTS]: 
-
-[DATA]: 07-05-2023 
-[HORA]: 12:15:54 
-[AÇÃO]: Conta editada[ANTIGO]: Mighty Omega 
-[DESCRIPTION]: Jogo de luta 
-[ACCOUNTS]: 
-
-[DATA]: 07-05-2023 
-[HORA]: 12:15:54 
-[AÇÃO]: Conta editada[NOVA]: Mighty Omega 
-[DESCRIPTION]: Jogo de luta 
-[ACCOUNTS]: 
-
-[DATA]: 07-05-2023 
-[HORA]: 12:16:39 
-[AÇÃO]: Conta editada[ANTIGO]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: dadeds2
-
-[DATA]: 07-05-2023 
-[HORA]: 12:16:39 
-[AÇÃO]: Conta editada[NOVA]: GPO 
-[DESCRIPTION]: Jogo feito pelo phoeyu 
-[ACCOUNTS]: 
-
-[DATA]: 07-05-2023 
-[HORA]: 12:16:41 
-[AÇÃO]: Conta editada[ANTIGO]: Wisteria2 
-[DESCRIPTION]: jogo de demon slayer no roblox 
-[ACCOUNTS]: spider0742,teste,Opa
-
-[DATA]: 07-05-2023 
-[HORA]: 12:16:41 
-[AÇÃO]: Conta editada[NOVA]: Wisteria2 
-[DESCRIPTION]: jogo de demon slayer no roblox 
-[ACCOUNTS]: 
+[ACCOUNTS]: dadeds2,dadeds3,Teste de account
 

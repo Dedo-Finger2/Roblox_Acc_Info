@@ -117,7 +117,7 @@ class AccountModel
      * @param string $username - Novo nome para a conta
      * @param array $info - Novo array com informações para esse conta
      * @param array $games - Novo array com os jogos que essa conta possui algo de importante
-     * @return boolean - TRUE se os dados foram atualizados e FALSE caso contrário
+     * @return mixed - ID da conta que foi editada
      */
     public function editAccount($account_id, $username, $info, $games)
     {

@@ -1,306 +1,54 @@
-[DATA]: 03-05-2023 
-[HORA]: 16:12:18 
-[AÇÃO]: Conta deletada: dedo_finger36 normal
-[INFO]: Jogo1: item1, Jogo2: item2, Jogo7: item7, Jogo4: item4, Jogo9: item9, Jogo10: item10 
-[GAMES]: Jogo1, Jogo2, Jogo7, Jogo4, Jogo9, Jogo10
-
-[DATA]: 06-05-2023 
-[HORA]: 17:02:23 
-[AÇÃO]: Nova conta criada: Teste
-[INFO]: Jogo1: Mera, Jogo2: Tori 
-[GAMES]: Jogo1, Jogo2
-
-[DATA]: 06-05-2023 
-[HORA]: 17:11:36 
-[AÇÃO]: Nova conta criada: sou o ultimo com Wisteria 2
-[INFO]: Wisteria2: Kamado 
-[GAMES]: Wisteria2
-
-[DATA]: 06-05-2023 
-[HORA]: 17:27:14 
-[AÇÃO]: Nova conta criada: Mais um para wisteria2
-[INFO]: Wisteria2: Testando, GPO: Tori-Tori 
-[GAMES]: Wisteria2, GPO
-
-[DATA]: 06-05-2023 
-[HORA]: 17:28:21 
-[AÇÃO]: Conta editada[ANTIGO]: Mais um para wisteria2
-[INFO]: Wisteria2: Testando, GPO: Tori-Tori 
-[GAMES]: Wisteria2, GPO
-
-[DATA]: 06-05-2023 
-[HORA]: 17:28:21 
-[AÇÃO]: Conta editada[NOVA]: Mais um para wisteria2
-[INFO]: Wisteria2: Kamado, GPO: Tori-Tori 
-[GAMES]: Wisteria2, GPO
-
-[DATA]: 06-05-2023 
-[HORA]: 17:29:00 
-[AÇÃO]: Conta editada[ANTIGO]: Mais um para wisteria2
-[INFO]: Wisteria2: Kamado, GPO: Tori-Tori 
-[GAMES]: Wisteria2, GPO
-
-[DATA]: 06-05-2023 
-[HORA]: 17:29:00 
-[AÇÃO]: Conta editada[NOVA]: Mais um para wisteria2
-[INFO]: Wisteria2: Kamado, GPO: Tori-Tori 
-[GAMES]: Wisteria2, GPO
-
-[DATA]: 06-05-2023 
-[HORA]: 17:30:04 
-[AÇÃO]: Conta editada[ANTIGO]: Mais um para wisteria2
-[INFO]: Wisteria2: Kamado, GPO: Tori-Tori 
-[GAMES]: Wisteria2, GPO
-
-[DATA]: 06-05-2023 
-[HORA]: 17:30:04 
-[AÇÃO]: Conta editada[NOVA]: Mais um para wisteria2
-[INFO]: Wisteria2: Kamado/Teste/Outro teste, GPO: Tori-Tori 
-[GAMES]: Wisteria2, GPO
-
-[DATA]: 06-05-2023 
-[HORA]: 17:30:36 
-[AÇÃO]: Conta editada[ANTIGO]: Mais um para wisteria2
-[INFO]: Wisteria2: Kamado/Teste/Outro teste, GPO: Tori-Tori 
-[GAMES]: Wisteria2, GPO
-
-[DATA]: 06-05-2023 
-[HORA]: 17:30:36 
-[AÇÃO]: Conta editada[NOVA]: Mais um para wisteria2
-[INFO]: Wisteria2: Kamado/ Teste/ Outro teste, GPO: Tori-Tori 
-[GAMES]: Wisteria2, GPO
-
-[DATA]: 06-05-2023 
-[HORA]: 17:31:04 
-[AÇÃO]: Conta editada[ANTIGO]: Mais um para wisteria2
-[INFO]: Wisteria2: Kamado/ Teste/ Outro teste, GPO: Tori-Tori 
-[GAMES]: Wisteria2, GPO
-
-[DATA]: 06-05-2023 
-[HORA]: 17:31:04 
-[AÇÃO]: Conta editada[NOVA]: Mais um para wisteria2
-[INFO]: Wisteria2: Kamado | Teste | Outro teste, GPO: Tori-Tori | Mera-Mera 
-[GAMES]: Wisteria2, GPO
-
-[DATA]: 06-05-2023 
-[HORA]: 17:31:50 
-[AÇÃO]: Conta editada[ANTIGO]: Mais um para wisteria2
-[INFO]: Wisteria2: Kamado | Teste | Outro teste, GPO: Tori-Tori | Mera-Mera 
-[GAMES]: Wisteria2, GPO
-
-[DATA]: 06-05-2023 
-[HORA]: 17:31:50 
-[AÇÃO]: Conta editada[NOVA]: Mais um para wisteria2
-[INFO]: Wisteria2: Kamado/Teste/Outro teste, GPO: Tori-Tori/Mera-Mera 
-[GAMES]: Wisteria2, GPO
-
-[DATA]: 06-05-2023 
-[HORA]: 17:33:48 
-[AÇÃO]: Nova conta criada: ESTOU NO WISTERIA
-[INFO]: Wisteria2: Algo, GPO: Algo a mais 
-[GAMES]: Wisteria2, GPO
-
-[DATA]: 06-05-2023 
-[HORA]: 17:34:39 
-[AÇÃO]: Nova conta criada: TESTE WISTERIA2
-[INFO]: Wisteria2: Algo/Mais algo/Ultima coisa, GPO: Fruta 
-[GAMES]: Wisteria2, GPO
-
-[DATA]: 06-05-2023 
-[HORA]: 17:41:07 
-[AÇÃO]: Conta deletada: TESTE WISTERIA2
-[INFO]: Wisteria2: Algo/Mais algo/Ultima coisa, GPO: Fruta 
-[GAMES]: Wisteria2, GPO
-
 [DATA]: 07-05-2023 
-[HORA]: 00:12:02 
-[AÇÃO]: Nova conta criada: dadeds2
-[INFO]: Wisteria2: Kamado, GPO: Tori/ASE/PCC, RO_Ghoul: Kaneki 
-[GAMES]: Wisteria2, GPO, RO_Ghoul
-
-[DATA]: 07-05-2023 
-[HORA]: 10:12:30 
-[AÇÃO]: Nova conta criada: spider0742
-[INFO]: GPO: Magu, Wisteria2: Kamado 
-[GAMES]: GPO, Wisteria2
-
-[DATA]: 07-05-2023 
-[HORA]: 10:56:26 
-[AÇÃO]: Conta editada[ANTIGO]: dadeds2
-[INFO]: Wisteria2: Kamado, GPO: Tori/ASE/PCC, RO_Ghoul: Kaneki 
-[GAMES]: Wisteria2, GPO, RO_Ghoul
-
-[DATA]: 07-05-2023 
-[HORA]: 10:56:26 
-[AÇÃO]: Conta editada[NOVA]: dadeds2
-[INFO]: Wisteria2: Kamado, GPO: Tori/ASE/PCC, RO_Ghoul: Kaneki 
-[GAMES]: Wisteria2, GPO, RO_Ghoul
-
-[DATA]: 07-05-2023 
-[HORA]: 10:57:00 
-[AÇÃO]: Conta editada[ANTIGO]: dadeds2
-[INFO]: Wisteria2: Kamado, GPO: Tori/ASE/PCC, RO_Ghoul: Kaneki 
-[GAMES]: Wisteria2, GPO, RO_Ghoul
-
-[DATA]: 07-05-2023 
-[HORA]: 10:57:00 
-[AÇÃO]: Conta editada[NOVA]: dadeds2
-[INFO]: Wisteria2: Kamado, GPO: Tori/ASE/PCC, RO_Ghoul: Kaneki 
-[GAMES]: Wisteria2, GPO, RO_Ghoul
-
-[DATA]: 07-05-2023 
-[HORA]: 10:57:40 
-[AÇÃO]: Nova conta criada: spider0742 deleted
-[INFO]: GPO: Magu, Wisteria2: Kamado 
-[GAMES]: GPO, Wisteria2
-
-[DATA]: 07-05-2023 
-[HORA]: 10:58:14 
-[AÇÃO]: Conta deletada: spider0742 deleted
-[INFO]: GPO: Magu, Wisteria2: Kamado 
-[GAMES]: GPO, Wisteria2
-
-[DATA]: 07-05-2023 
-[HORA]: 11:03:38 
-[AÇÃO]: Conta editada[ANTIGO]: dadeds2
-[INFO]: Wisteria2: Kamado, GPO: Tori/ASE/PCC, RO_Ghoul: Kaneki 
-[GAMES]: Wisteria2, GPO, RO_Ghoul
-
-[DATA]: 07-05-2023 
-[HORA]: 11:03:38 
-[AÇÃO]: Conta editada[NOVA]: dadeds2
-[INFO]: Wisteria2: Kamado, GPO: Tori/ASE/PCC, RO_Ghoul: Kaneki 
-[GAMES]: Wisteria2, GPO, RO_Ghoul
-
-[DATA]: 07-05-2023 
-[HORA]: 11:04:08 
-[AÇÃO]: Nova conta criada: teste
-[INFO]: GPO: Magu, Wisteria2: Kamado 
-[GAMES]: GPO, Wisteria2
-
-[DATA]: 07-05-2023 
-[HORA]: 11:09:44 
-[AÇÃO]: Conta deletada: dadeds2
-[INFO]: Wisteria2: Kamado, GPO: Tori/ASE/PCC, RO_Ghoul: Kaneki 
-[GAMES]: Wisteria2, GPO, RO_Ghoul
-
-[DATA]: 07-05-2023 
-[HORA]: 11:09:57 
-[AÇÃO]: Nova conta criada: Opa
-[INFO]: GPO: Magu, Wisteria2: Kamado 
-[GAMES]: GPO, Wisteria2
-
-[DATA]: 07-05-2023 
-[HORA]: 11:35:13 
-[AÇÃO]: Nova conta criada: Vai funcionar
-[INFO]: GPO: Budah, Shinobi Life2: Kamui 
+[HORA]: 16:00:40 
+[AÇÃO]: Nova conta criada: Teste de account
+[INFO]: GPO: Pika, Shinobi Life2: Susanoo 
 [GAMES]: GPO, Shinobi Life2
 
 [DATA]: 07-05-2023 
-[HORA]: 11:39:14 
-[AÇÃO]: Nova conta criada: Vai funcionar2
-[INFO]: Mighty Omega: Ohman 
-[GAMES]: Mighty Omega
+[HORA]: 16:01:06 
+[AÇÃO]: Nova conta criada: Teste com uma info
+[INFO]: GPO: Bari, : 
+[GAMES]: GPO, 
 
 [DATA]: 07-05-2023 
-[HORA]: 11:41:24 
-[AÇÃO]: Conta editada[ANTIGO]: Vai funcionar2
-[INFO]: Mighty Omega: Ohman 
-[GAMES]: Mighty Omega
-
-[DATA]: 07-05-2023 
-[HORA]: 11:41:24 
-[AÇÃO]: Conta editada[NOVA]: Vai funcionar2
-[INFO]: Mighty Omega: Ohman, GPO: Suke-Suke 
-[GAMES]: Mighty Omega, GPO
-
-[DATA]: 07-05-2023 
-[HORA]: 11:42:37 
-[AÇÃO]: Nova conta criada: SOU DO GPO
-[INFO]: Mighty Omega: Um clâ, Shinobi Life2: Madara 
-[GAMES]: Mighty Omega, Shinobi Life2
-
-[DATA]: 07-05-2023 
-[HORA]: 11:50:03 
-[AÇÃO]: Conta editada[ANTIGO]: Vai funcionar2
-[INFO]: Mighty Omega: Ohman, GPO: Suke-Suke 
-[GAMES]: Mighty Omega, GPO
-
-[DATA]: 07-05-2023 
-[HORA]: 11:50:03 
-[AÇÃO]: Conta editada[NOVA]: Vai funcionar2
-[INFO]: Mighty Omega: Ohman, GPO: Suke-Suke 
-[GAMES]: Mighty Omega, GPO
-
-[DATA]: 07-05-2023 
-[HORA]: 11:53:55 
-[AÇÃO]: Nova conta criada: Mais um teste
-[INFO]: GPO: Tori 
-[GAMES]: Array
-
-[DATA]: 07-05-2023 
-[HORA]: 11:57:11 
+[HORA]: 16:01:27 
 [AÇÃO]: Nova conta criada: Outro teste legal
-[INFO]: GPO: Pika 
-[GAMES]: Array, 
+[INFO]: GPO: Suna 
+[GAMES]: GPO
 
 [DATA]: 07-05-2023 
-[HORA]: 11:58:11 
-[AÇÃO]: Nova conta criada: Ultimo teste
-[INFO]: GPO: Tori 
-[GAMES]: Array, 
+[HORA]: 16:02:27 
+[AÇÃO]: Conta editada[ANTIGO]: Outro teste legal
+[INFO]: GPO: Suna 
+[GAMES]: GPO
 
 [DATA]: 07-05-2023 
-[HORA]: 12:10:49 
-[AÇÃO]: Conta deletada: Vai funcionar2
-[INFO]: Mighty Omega: Ohman, GPO: Suke-Suke 
-[GAMES]: Mighty Omega, GPO
+[HORA]: 16:02:27 
+[AÇÃO]: Conta editada[NOVA]: Outro teste legal
+[INFO]: GPO: Suna, Wisteria2: Tsugikuni 
+[GAMES]: GPO, Wisteria2
 
 [DATA]: 07-05-2023 
-[HORA]: 12:11:49 
-[AÇÃO]: Nova conta criada: hmmmm
-[INFO]: GPO: Tori, : 
-[GAMES]: Array
+[HORA]: 16:02:54 
+[AÇÃO]: Conta deletada: Outro teste legal
+[INFO]: GPO: Suna, Wisteria2: Tsugikuni 
+[GAMES]: GPO, Wisteria2
 
 [DATA]: 07-05-2023 
-[HORA]: 12:13:51 
-[AÇÃO]: Conta deletada: hmmmm
-[INFO]: GPO: Tori, : 
-[GAMES]: Array
+[HORA]: 16:06:05 
+[AÇÃO]: Conta deletada: Teste com uma info
+[INFO]: GPO: Bari, : 
+[GAMES]: GPO, 
 
 [DATA]: 07-05-2023 
-[HORA]: 12:13:59 
-[AÇÃO]: Conta deletada: Mais um teste
-[INFO]: GPO: Tori 
-[GAMES]: Array
-
-[DATA]: 07-05-2023 
-[HORA]: 12:15:07 
-[AÇÃO]: Nova conta criada: dadeds2
-[INFO]: GPO: Tori, Shinobi Life2: Kamui 
-[GAMES]: GPO, Shinobi Life2
-
-[DATA]: 07-05-2023 
-[HORA]: 12:15:43 
+[HORA]: 16:06:34 
 [AÇÃO]: Conta editada[ANTIGO]: dadeds2
-[INFO]: GPO: Tori, Shinobi Life2: Kamui 
-[GAMES]: GPO, Shinobi Life2
+[INFO]: GPO: Tori, Wisteria2: Kamado, Shinobi Life2: Kamui, Mighty Omega: Ohman 
+[GAMES]: GPO, Wisteria2, Shinobi Life2, Mighty Omega
 
 [DATA]: 07-05-2023 
-[HORA]: 12:15:43 
+[HORA]: 16:06:34 
 [AÇÃO]: Conta editada[NOVA]: dadeds2
-[INFO]: GPO: Tori, Shinobi Life2: Kamui, Mighty Omega: Ohman 
-[GAMES]: GPO, Shinobi Life2, Mighty Omega
-
-[DATA]: 07-05-2023 
-[HORA]: 12:16:32 
-[AÇÃO]: Conta editada[ANTIGO]: dadeds2
-[INFO]: GPO: Tori, Shinobi Life2: Kamui, Mighty Omega: Ohman 
-[GAMES]: GPO, Shinobi Life2, Mighty Omega
-
-[DATA]: 07-05-2023 
-[HORA]: 12:16:32 
-[AÇÃO]: Conta editada[NOVA]: dadeds2
-[INFO]: GPO: Tori, Shinobi Life2: Kamui, Mighty Omega: Ohman, Wisteria2: Kamado 
-[GAMES]: GPO, Shinobi Life2, Mighty Omega, Wisteria2
+[INFO]: GPO: Tori/Magma/Gomu, Wisteria2: Kamado, Shinobi Life2: Kamui, Mighty Omega: Ohman 
+[GAMES]: GPO, Wisteria2, Shinobi Life2, Mighty Omega
 
