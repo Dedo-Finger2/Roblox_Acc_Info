@@ -29,18 +29,21 @@ class GameController
             return $form;
         } else {
             $form =
-                '<form method="post" action="processform.test.php">
+                '<form method="post" action="../app/Tests/processform.test.php">
             <label for="name">Name:</label>
             <input type="text" name="gameName" id="name">
 
             <label for="description">Description:</label>
             <textarea name="gameDescription" id="description"></textarea>
 
+            <input type="hidden" name="id">
+
             <label for="accounts">Accounts:</label>
             <textarea name="gameAccounts" id="accounts"></textarea>
 
             <input type="submit" value="Editar" name="editGame">
-        </form>';
+            <input type="submit" value="Refresh" name="refreshGame">
+            </form>';
 
             // É necessário dar um ECHO nesse método para que o form seja exibido
             return $form;
@@ -113,7 +116,7 @@ class GameController
     public function editForm($game_id)
     {
         // Requirindo a conexão com o banco de dados
-        require_once("../Config/Conexao.php");
+        require_once("../app/Config/Conexao.php");
 
         // Instanciando a seleção dos dados para serem exibidos dentro dos inputs
         $sql = $conexao->prepare("SELECT * FROM games WHERE game_id = ?");
@@ -142,6 +145,7 @@ class GameController
                 window.onload = function () {
                     var localData = <?= json_encode($dados); ?>;
                     document.querySelector('input[name="gameName"]').value = localData['name'];
+                    document.querySelector('input[name="id"]').value = localData['game_id'];
                     document.querySelector('textarea[name="gameDescription"]').value = localData['description'];
                     document.querySelector('textarea[name="gameAccounts"]').value = localData['accounts'];
                 };
@@ -185,7 +189,7 @@ class GameController
                             $accountsWithTheGame[] = $row['username'];
                         }
                     }
-                    
+
                     // Edita os dados do jogo e retorna o ID
                     $result = (new \App\Model\GameModel())->editGame($game_id, $dados['gameName'], $dados['gameDescription'], $accountsWithTheGame);
                     return $result;
@@ -206,12 +210,13 @@ class GameController
     public function deleteForm($game_id)
     {
         // Requirindo a conexão com o banco de dados
-        require_once("../Config/Conexao.php");
+        require_once("../app/Config/Conexao.php");
 
-        $form = 
-            '<form method="post" action="processform.test.php">
+        $form =
+            '<form method="post" action="../app/Tests/processform.test.php">
                 <h1>Deseja realmente apagar esse jogo?</h1>
                 <input type="submit" value="Deletar" name="deleteGame">
+                <input type="hidden" name="id" value="'.$game_id.'">
             </form>';
         echo $form;
 
@@ -232,8 +237,9 @@ class GameController
         echo "<br><br><b>Description: $description</b><br>";
         echo "<br><b>Accounts:</b><br>";
         foreach ($accounts as $conta) {
-            echo($conta ."<br>");
-        };
+            echo ($conta . "<br>");
+        }
+        ;
         echo "</div>";
 
         // É necessário dar um ECHO nesse método para que o form seja exibido
@@ -248,13 +254,13 @@ class GameController
     {
         try {
             $deleteGame = (new \App\Model\GameModel())->deleteGame($game_id);
-            
+
             if (!empty($deleteGame)) {
                 return $deleteGame;
             } else {
                 return ("[ATENÇAÕ] Ocorreu um erro ao tentar deletar a conta.");
             }
-        } catch(\mysqli_sql_exception $e) {
+        } catch (\mysqli_sql_exception $e) {
             return "[ATENÇÃO]: Ocorreu um erro no banco ao deletar o jogo: " . $e->getMessage();
         }
     }

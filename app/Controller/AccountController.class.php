@@ -31,9 +31,11 @@ class AccountController
             return $form;
         } else {
             $form =
-                '<form method="post" action="processform.test.php">
+                '<form method="post" action="../app/Tests/processform.test.php">
                 <label for="username">Username:</label>
                 <input type="text" name="username" id="username">
+
+                <input type="hidden" name="id">
 
                 <label for="info">Info:</label>
                 <textarea name="info" id="info"></textarea>
@@ -108,7 +110,7 @@ class AccountController
     public function editForm($account_id)
     {
         // Requirindo a conexão com o banco de dados
-        require_once("../Config/Conexao.php");
+        require_once("../app/Config/Conexao.php");
 
         // instanciando a seleção dos dados para serem exibidos dentro dos inputs
         $sql = $conexao->prepare("SELECT * FROM accounts WHERE acc_id = ?");
@@ -154,6 +156,7 @@ class AccountController
                 window.onload = function () {
                     var localData = <?= json_encode($dados); ?>;
                     document.querySelector('input[name="username"]').value = localData['username'];
+                    document.querySelector('input[name="id"]').value = localData['acc_id'];
                     document.querySelector('textarea[name="info"]').value = localData['info'];
                     document.querySelector('textarea[name="games"]').value = localData['games'];
                 };
@@ -226,12 +229,13 @@ class AccountController
     public function deleteForm($account_id)
     {
         // Requirindo a conexão com o banco de dados
-        require_once("../Config/Conexao.php");
+        require_once("../app/Config/Conexao.php");
 
         $form =
-            '<form method="post" action="processform.test.php">
+            '<form method="post" action="../app/Tests/processform.test.php">
                 <h1>Deseja realmente apagar essa conta?</h1>
                 <input type="submit" value="Deletar" name="delete">
+                <input type="hidden" name="id" value="'.$account_id.'"></input>
             </form>';
         echo $form;
         // instanciando a seleção dos dados
