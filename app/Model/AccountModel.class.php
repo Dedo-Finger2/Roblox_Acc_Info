@@ -70,7 +70,7 @@ class AccountModel
     /**
      * Deleta uma conta do banco de dados
      * @param int $account_id - ID da conta que vai ser deletada
-     * @return boolean - Se a ação foi feita com sucesso retorna TRUE, caso der algum problema retorna FALSE
+     * @return mixed - ID da conta deletada
      */
     public function deleteAccount($account_id)
     {
@@ -92,7 +92,7 @@ class AccountModel
 
                     // Registrando a ação no LOG
                     \App\Config\Log::logAccount("Conta deletada: " . $row['username'], $row['info'], $row['games']);
-                    return true;
+                    return $account_id;
                 } else {
                     // Se o ID da conta tentando ser deletada não existir, essa mensagem será exibida
                     echo "<div class='error'>O ID informado não consta no banco de dados!</div>";
@@ -106,7 +106,7 @@ class AccountModel
 
                 // exibindo o erro na tela
                 echo "<div class='error'>$errorMsg</div>";
-                return false;
+                return $account_id;
             }
         }
     }

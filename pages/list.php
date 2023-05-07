@@ -4,7 +4,6 @@ require_once("../app/Config/Conexao.php");
 $resultado = $conexao->query("SELECT * FROM accounts");
 $resultadoGames = $conexao->query("SELECT * FROM games");
 
-// Imprimir a tabela HTML com os resultados da consulta
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -101,6 +100,7 @@ $resultadoGames = $conexao->query("SELECT * FROM games");
                                             <th style="text-align: center;">Useranme</th>
                                             <th style="text-align: center;">Info</th>
                                             <th style="text-align: center;">Games</th>
+                                            <th style="text-align: center;">Options</th>
                                         </tr>
                                     </thead>
                                     <!-- CONTEÚDO DA TABELA -->
@@ -140,6 +140,10 @@ $resultadoGames = $conexao->query("SELECT * FROM games");
                                                     }
                                                     ?>
                                                 </td>
+                                                <td>
+                                                    <a href="accountEditForm.php?id=<?= $row['acc_id'] ?>">Editar</a>
+                                                    <a href="accountDeleteForm.php?id=<?= $row['acc_id'] ?>">Deletar</a>
+                                                </td>
                                             </tr>
                                             <?php
                                         }
@@ -151,6 +155,7 @@ $resultadoGames = $conexao->query("SELECT * FROM games");
                                             <th style="text-align: center;">Useranme</th>
                                             <th style="text-align: center;">Info</th>
                                             <th style="text-align: center;">Games</th>
+                                            <th style="text-align: center;">Options</th>
                                         </tr>
                                     </tfoot>
                                 </table>
@@ -183,6 +188,7 @@ $resultadoGames = $conexao->query("SELECT * FROM games");
                                             <th style="text-align: center;">Name</th>
                                             <th style="text-align: center;">Description</th>
                                             <th style="text-align: center;">Accounts</th>
+                                            <th style="text-align: center;">Options</th>
                                         </tr>
                                     </thead>
                                     <!-- CONTEÚDO DA TABELA -->
@@ -192,19 +198,24 @@ $resultadoGames = $conexao->query("SELECT * FROM games");
                                             ?>
                                             <tr>
                                                 <td>
-                                                    <?= "<b>".$row['name']."</b>" ?>
+                                                    <?= "<b>" . $row['name'] . "</b>" ?>
                                                 </td>
                                                 <td>
-                                                    <?= "<i>".$row['description']."</i>" ?>
+                                                    <?= "<i>" . $row['description'] . "</i>" ?>
                                                 </td>
                                                 <td>
                                                     <?php
-                                                        $accounts = unserialize($row['accounts']);
-                                                        
-                                                        foreach ($accounts as $account) {
-                                                            echo "$account, ";
-                                                        }
+                                                    $accounts = unserialize($row['accounts']);
+
+                                                    foreach ($accounts as $account) {
+                                                        echo "$account, ";
+                                                    }
                                                     ?>
+                                                </td>
+                                                <td>
+                                                    <a href="gameEditForm.php?id=<?= $row['game_id'] ?>">Editar</a>
+                                                    <a href="gameDeleteForm.php?id=<?= $row['game_id'] ?>">Deletar</a>
+                                                    <a href="../app/Tests/processform.test.php?id=<?= $row['game_id'] ?>">Refresh</a>
                                                 </td>
                                             </tr>
                                             <?php
@@ -217,6 +228,7 @@ $resultadoGames = $conexao->query("SELECT * FROM games");
                                             <th style="text-align: center;">Name</th>
                                             <th style="text-align: center;">Description</th>
                                             <th style="text-align: center;">Accounts</th>
+                                            <th style="text-align: center;">Options</th>
                                         </tr>
                                     </tfoot>
                                 </table>

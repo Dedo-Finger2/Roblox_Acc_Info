@@ -1,162 +1,258 @@
-[DATA]: 06-05-2023 
-[HORA]: 17:23:24 
-[AÇÃO]: Conta editada[ANTIGO]: Wisteria2 
-[DESCRIPTION]: jogo legal de demon slayer 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,sou o ultimo com Wisteria 2
-
-[DATA]: 06-05-2023 
-[HORA]: 17:23:24 
-[AÇÃO]: Conta editada[NOVA]: Wisteria2 
-[DESCRIPTION]: jogo legal de demon slayer no roblox 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,sou o ultimo com Wisteria 2
-
-[DATA]: 06-05-2023 
-[HORA]: 17:24:42 
-[AÇÃO]: Conta editada[ANTIGO]: Wisteria2 
-[DESCRIPTION]: jogo legal de demon slayer no roblox 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,sou o ultimo com Wisteria 2
-
-[DATA]: 06-05-2023 
-[HORA]: 17:24:42 
-[AÇÃO]: Conta editada[NOVA]: Wisteria2 
-[DESCRIPTION]: jogo legal de demon slayer no roblox 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,sou o ultimo com Wisteria 2
-
-[DATA]: 06-05-2023 
-[HORA]: 17:32:11 
-[AÇÃO]: Conta editada[ANTIGO]: Wisteria2 
-[DESCRIPTION]: jogo legal de demon slayer no roblox 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,sou o ultimo com Wisteria 2
-
-[DATA]: 06-05-2023 
-[HORA]: 17:32:11 
-[AÇÃO]: Conta editada[NOVA]: Wisteria2 
-[DESCRIPTION]: jogo legal de demon slayer no roblox 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,sou o ultimo com Wisteria 2
-
-[DATA]: 06-05-2023 
-[HORA]: 17:32:28 
-[AÇÃO]: Conta editada[ANTIGO]: Wisteria2 
-[DESCRIPTION]: jogo legal de demon slayer no roblox 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,sou o ultimo com Wisteria 2
-
-[DATA]: 06-05-2023 
-[HORA]: 17:32:28 
-[AÇÃO]: Conta editada[NOVA]: Wisteria2 
-[DESCRIPTION]: jogo legal de demon slayer no roblo 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,sou o ultimo com Wisteria 2
-
-[DATA]: 06-05-2023 
-[HORA]: 17:32:37 
-[AÇÃO]: Conta editada[ANTIGO]: Wisteria2 
-[DESCRIPTION]: jogo legal de demon slayer no roblo 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,sou o ultimo com Wisteria 2
-
-[DATA]: 06-05-2023 
-[HORA]: 17:32:37 
-[AÇÃO]: Conta editada[NOVA]: Wisteria2 
-[DESCRIPTION]: jogo legal de demon slayer no roblox 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,sou o ultimo com Wisteria 2
-
-[DATA]: 06-05-2023 
-[HORA]: 17:33:58 
-[AÇÃO]: Conta editada[ANTIGO]: Wisteria2 
-[DESCRIPTION]: jogo legal de demon slayer no roblox 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,sou o ultimo com Wisteria 2
-
-[DATA]: 06-05-2023 
-[HORA]: 17:33:58 
-[AÇÃO]: Conta editada[NOVA]: Wisteria2 
-[DESCRIPTION]: jogo legal de demon slayer no roblox 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,sou o ultimo com Wisteria 2,ESTOU NO WISTERIA
-
-[DATA]: 06-05-2023 
-[HORA]: 17:35:02 
-[AÇÃO]: Conta editada[ANTIGO]: Wisteria2 
-[DESCRIPTION]: jogo legal de demon slayer no roblox 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,sou o ultimo com Wisteria 2,ESTOU NO WISTERIA
-
-[DATA]: 06-05-2023 
-[HORA]: 17:35:02 
-[AÇÃO]: Conta editada[NOVA]: Wisteria2 
-[DESCRIPTION]: jogo legal de demon slayer no roblox 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,sou o ultimo com Wisteria 2,ESTOU NO WISTERIA,TESTE WISTERIA2
-
-[DATA]: 06-05-2023 
-[HORA]: 17:35:40 
-[AÇÃO]: Conta editada[ANTIGO]: Wisteria2 
-[DESCRIPTION]: jogo legal de demon slayer no roblox 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,sou o ultimo com Wisteria 2,ESTOU NO WISTERIA,TESTE WISTERIA2
-
-[DATA]: 06-05-2023 
-[HORA]: 17:35:40 
-[AÇÃO]: Conta editada[NOVA]: Wisteria2 
-[DESCRIPTION]: jogo legal de demon slayer no roblox 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,sou o ultimo com Wisteria 2,ESTOU NO WISTERIA,TESTE WISTERIA2
-
-[DATA]: 06-05-2023 
-[HORA]: 17:41:58 
-[AÇÃO]: Conta editada[ANTIGO]: Wisteria2 
-[DESCRIPTION]: jogo legal de demon slayer no roblox 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,sou o ultimo com Wisteria 2,ESTOU NO WISTERIA,TESTE WISTERIA2
-
-[DATA]: 06-05-2023 
-[HORA]: 17:41:58 
-[AÇÃO]: Conta editada[NOVA]: Wisteria2 
-[DESCRIPTION]: jogo legal de demon slayer no roblox 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,sou o ultimo com Wisteria 2,ESTOU NO WISTERIA
-
-[DATA]: 06-05-2023 
-[HORA]: 18:03:13 
-[AÇÃO]: Game deletado: Wisteria2 
-[DESCRIPTION]: jogo legal de demon slayer no roblox 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,sou o ultimo com Wisteria 2,ESTOU NO WISTERIA
-
-[DATA]: 06-05-2023 
-[HORA]: 18:04:35 
-[AÇÃO]: Game deletado: Jogo2 
-[DESCRIPTION]: jogo legal 
-[ACCOUNTS]: Teste editado,Teste 2
-
-[DATA]: 06-05-2023 
-[HORA]: 18:06:06 
-[AÇÃO]: Game deletado: GPO 
-[DESCRIPTION]: jogo legal 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2
-
-[DATA]: 06-05-2023 
-[HORA]: 18:06:29 
-[AÇÃO]: Novo jogo criado: GPO 
-[DESCRIPTION]: jogo de one piece pro roblox, eu acho legal 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,ESTOU NO WISTERIA
-
-[DATA]: 06-05-2023 
-[HORA]: 18:07:30 
+[DATA]: 07-05-2023 
+[HORA]: 10:43:26 
 [AÇÃO]: Conta editada[ANTIGO]: GPO 
 [DESCRIPTION]: jogo de one piece pro roblox, eu acho legal 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,ESTOU NO WISTERIA
-
-[DATA]: 06-05-2023 
-[HORA]: 18:07:30 
-[AÇÃO]: Conta editada[NOVA]: GPO 
-[DESCRIPTION]: jogo de one piece pro roblox, eu acho legal 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,ESTOU NO WISTERIA
-
-[DATA]: 06-05-2023 
-[HORA]: 18:07:53 
-[AÇÃO]: Novo jogo criado: Wisteria2 
-[DESCRIPTION]: jogo de demon slayer no roblox 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,sou o ultimo com Wisteria 2,ESTOU NO WISTERIA
+[ACCOUNTS]: dadeds2,spider0742
 
 [DATA]: 07-05-2023 
-[HORA]: 00:25:46 
+[HORA]: 10:43:26 
+[AÇÃO]: Conta editada[NOVA]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: dadeds2,spider0742
+
+[DATA]: 07-05-2023 
+[HORA]: 10:44:48 
+[AÇÃO]: Conta editada[ANTIGO]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: dadeds2,spider0742
+
+[DATA]: 07-05-2023 
+[HORA]: 10:44:48 
+[AÇÃO]: Conta editada[NOVA]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: dadeds2,spider0742
+
+[DATA]: 07-05-2023 
+[HORA]: 10:45:30 
+[AÇÃO]: Conta editada[ANTIGO]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: dadeds2,spider0742
+
+[DATA]: 07-05-2023 
+[HORA]: 10:45:30 
+[AÇÃO]: Conta editada[NOVA]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: dadeds2,spider0742
+
+[DATA]: 07-05-2023 
+[HORA]: 10:45:50 
+[AÇÃO]: Conta editada[ANTIGO]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: dadeds2,spider0742
+
+[DATA]: 07-05-2023 
+[HORA]: 10:45:50 
+[AÇÃO]: Conta editada[NOVA]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: dadeds2,spider0742
+
+[DATA]: 07-05-2023 
+[HORA]: 10:47:37 
+[AÇÃO]: Conta editada[ANTIGO]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: dadeds2,spider0742
+
+[DATA]: 07-05-2023 
+[HORA]: 10:47:37 
+[AÇÃO]: Conta editada[NOVA]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: dadeds2,spider0742
+
+[DATA]: 07-05-2023 
+[HORA]: 10:48:13 
+[AÇÃO]: Conta editada[ANTIGO]: Mighty Omega 
+[DESCRIPTION]: jogo legal 
+[ACCOUNTS]: Sem contas no momento
+
+[DATA]: 07-05-2023 
+[HORA]: 10:48:13 
+[AÇÃO]: Conta editada[NOVA]: Mighty Omega 
+[DESCRIPTION]: jogo legal 
+[ACCOUNTS]: 
+
+[DATA]: 07-05-2023 
+[HORA]: 10:49:03 
+[AÇÃO]: Conta editada[ANTIGO]: Mighty Omega 
+[DESCRIPTION]: jogo legal 
+[ACCOUNTS]: 
+
+[DATA]: 07-05-2023 
+[HORA]: 10:49:03 
+[AÇÃO]: Conta editada[NOVA]: Mighty Omega 
+[DESCRIPTION]: jogo legal 
+[ACCOUNTS]: 
+
+[DATA]: 07-05-2023 
+[HORA]: 10:49:25 
+[AÇÃO]: Game deletado: Mighty Omega 
+[DESCRIPTION]: jogo legal 
+[ACCOUNTS]: 
+
+[DATA]: 07-05-2023 
+[HORA]: 10:50:03 
 [AÇÃO]: Conta editada[ANTIGO]: Wisteria2 
 [DESCRIPTION]: jogo de demon slayer no roblox 
-[ACCOUNTS]: Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Spider,Mouse,Outro nome,dadeds2,sou o ultimo com Wisteria 2,ESTOU NO WISTERIA
+[ACCOUNTS]: dadeds2
 
 [DATA]: 07-05-2023 
-[HORA]: 00:25:46 
+[HORA]: 10:50:03 
 [AÇÃO]: Conta editada[NOVA]: Wisteria2 
 [DESCRIPTION]: jogo de demon slayer no roblox 
-[ACCOUNTS]: dadeds2
+[ACCOUNTS]: dadeds2,spider0742
+
+[DATA]: 07-05-2023 
+[HORA]: 10:50:44 
+[AÇÃO]: Conta editada[ANTIGO]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: dadeds2,spider0742
+
+[DATA]: 07-05-2023 
+[HORA]: 10:50:44 
+[AÇÃO]: Conta editada[NOVA]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: dadeds2,spider0742
+
+[DATA]: 07-05-2023 
+[HORA]: 10:57:52 
+[AÇÃO]: Conta editada[ANTIGO]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: dadeds2,spider0742
+
+[DATA]: 07-05-2023 
+[HORA]: 10:57:52 
+[AÇÃO]: Conta editada[NOVA]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: spider0742,spider0742 deleted
+
+[DATA]: 07-05-2023 
+[HORA]: 10:58:02 
+[AÇÃO]: Conta editada[ANTIGO]: Wisteria2 
+[DESCRIPTION]: jogo de demon slayer no roblox 
+[ACCOUNTS]: dadeds2,spider0742
+
+[DATA]: 07-05-2023 
+[HORA]: 10:58:02 
+[AÇÃO]: Conta editada[NOVA]: Wisteria2 
+[DESCRIPTION]: jogo de demon slayer no roblox 
+[ACCOUNTS]: spider0742,spider0742 deleted
+
+[DATA]: 07-05-2023 
+[HORA]: 10:59:59 
+[AÇÃO]: Conta editada[ANTIGO]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: spider0742,spider0742 deleted
+
+[DATA]: 07-05-2023 
+[HORA]: 10:59:59 
+[AÇÃO]: Conta editada[NOVA]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: spider0742
+
+[DATA]: 07-05-2023 
+[HORA]: 11:03:06 
+[AÇÃO]: Conta editada[ANTIGO]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: spider0742
+
+[DATA]: 07-05-2023 
+[HORA]: 11:03:06 
+[AÇÃO]: Conta editada[NOVA]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: spider0742
+
+[DATA]: 07-05-2023 
+[HORA]: 11:03:28 
+[AÇÃO]: Conta editada[ANTIGO]: Shinobi life2 
+[DESCRIPTION]: Jogo de naruto lá 
+[ACCOUNTS]: keydo_finger,dedo_finger,dedo_ff
+
+[DATA]: 07-05-2023 
+[HORA]: 11:03:28 
+[AÇÃO]: Conta editada[NOVA]: Shinobi life2 
+[DESCRIPTION]: Jogo de naruto lá 
+[ACCOUNTS]: 
+
+[DATA]: 07-05-2023 
+[HORA]: 11:03:33 
+[AÇÃO]: Conta editada[ANTIGO]: Wisteria2 
+[DESCRIPTION]: jogo de demon slayer no roblox 
+[ACCOUNTS]: spider0742,spider0742 deleted
+
+[DATA]: 07-05-2023 
+[HORA]: 11:03:33 
+[AÇÃO]: Conta editada[NOVA]: Wisteria2 
+[DESCRIPTION]: jogo de demon slayer no roblox 
+[ACCOUNTS]: spider0742
+
+[DATA]: 07-05-2023 
+[HORA]: 11:03:46 
+[AÇÃO]: Conta editada[ANTIGO]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: spider0742
+
+[DATA]: 07-05-2023 
+[HORA]: 11:03:46 
+[AÇÃO]: Conta editada[NOVA]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: spider0742
+
+[DATA]: 07-05-2023 
+[HORA]: 11:04:16 
+[AÇÃO]: Conta editada[ANTIGO]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: spider0742
+
+[DATA]: 07-05-2023 
+[HORA]: 11:04:16 
+[AÇÃO]: Conta editada[NOVA]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: spider0742,teste
+
+[DATA]: 07-05-2023 
+[HORA]: 11:04:22 
+[AÇÃO]: Conta editada[ANTIGO]: Wisteria2 
+[DESCRIPTION]: jogo de demon slayer no roblox 
+[ACCOUNTS]: spider0742
+
+[DATA]: 07-05-2023 
+[HORA]: 11:04:22 
+[AÇÃO]: Conta editada[NOVA]: Wisteria2 
+[DESCRIPTION]: jogo de demon slayer no roblox 
+[ACCOUNTS]: spider0742,teste
+
+[DATA]: 07-05-2023 
+[HORA]: 11:13:25 
+[AÇÃO]: Conta editada[ANTIGO]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: spider0742,teste
+
+[DATA]: 07-05-2023 
+[HORA]: 11:13:25 
+[AÇÃO]: Conta editada[NOVA]: GPO 
+[DESCRIPTION]: Jogo feito pelo phoeyu 
+[ACCOUNTS]: spider0742,teste,Opa
+
+[DATA]: 07-05-2023 
+[HORA]: 11:19:14 
+[AÇÃO]: Conta editada[ANTIGO]: Wisteria2 
+[DESCRIPTION]: jogo de demon slayer no roblox 
+[ACCOUNTS]: spider0742,teste
+
+[DATA]: 07-05-2023 
+[HORA]: 11:19:14 
+[AÇÃO]: Conta editada[NOVA]: Wisteria2 
+[DESCRIPTION]: jogo de demon slayer no roblox 
+[ACCOUNTS]: spider0742,teste,Opa
+
+[DATA]: 07-05-2023 
+[HORA]: 11:20:49 
+[AÇÃO]: Conta editada[ANTIGO]: Shinobi life2 
+[DESCRIPTION]: Jogo de naruto lá 
+[ACCOUNTS]: 
+
+[DATA]: 07-05-2023 
+[HORA]: 11:20:49 
+[AÇÃO]: Conta editada[NOVA]: Shinobi life2 
+[DESCRIPTION]: Jogo de naruto lá 
+[ACCOUNTS]: 
 
