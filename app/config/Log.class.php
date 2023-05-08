@@ -16,7 +16,7 @@ class Log
         $hourNow = date("H:i:s");
         $dateNow = date("d-m-Y");
         $log = fopen("../docs/logs/general/generallog.txt", "a+");
-        $text = "[DATA]: $dateNow \n[HORA]: $hourNow \n[AÇÃO]: $action\n\n";
+        $text = "[DATA]: $dateNow \n<br>[HORA]: $hourNow \n<br>[AÇÃO]: $action\n\n<hr>";
         fwrite($log, $text);
         fclose($log);
     }
@@ -46,7 +46,7 @@ class Log
         $games_string = implode(', ', $games_array);
 
         $log = fopen("../docs/logs/account/accountlog.txt", "a+");
-        $text = "[DATA]: $dateNow \n[HORA]: $hourNow \n[AÇÃO]: $action\n[INFO]: $info_string \n[GAMES]: $games_string\n\n";
+        $text = "[DATA]: $dateNow \n<br>[HORA]: $hourNow \n<br>[AÇÃO]: $action\n<br>[INFO]: $info_string \n<br>[GAMES]: $games_string\n\n<hr>";
         fwrite($log, $text);
         fclose($log);
     }
@@ -66,7 +66,7 @@ class Log
         $accounts_string = implode(',', $unserialized_accounts);
 
         $log = fopen("../docs/logs/game/gamelog.txt", "a+");
-        $text = "[DATA]: $dateNow \n[HORA]: $hourNow \n[AÇÃO]: $action \n[DESCRIPTION]: $description \n[ACCOUNTS]: $accounts_string\n\n";
+        $text = "[DATA]: $dateNow \n<br>[HORA]: $hourNow \n<br>[AÇÃO]: $action \n<br>[DESCRIPTION]: $description \n<br>[ACCOUNTS]: $accounts_string\n\n<hr>";
         fwrite($log, $text);
         fclose($log);
     }

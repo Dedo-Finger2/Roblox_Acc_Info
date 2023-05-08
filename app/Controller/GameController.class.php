@@ -15,15 +15,27 @@ class GameController
     {
         if ($editar != true) {
             $form =
-                '<form method="post" action="../app/Tests/processform.test.php">
-                <label for="name">Name:</label>
-                <input type="text" name="gameName" id="name">
+                '
+                <div class="mb-3">
+                    <form method="post" action="../app/Tests/processform.test.php">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="text" name="gameName" class="form-control" id="exampleFormControlInput1" placeholder="GPO..." aria-labelledby="passwordHelpBlock">
+                            <div id="passwordHelpBlock" class="form-text">
+                                The name of the game.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+                            <textarea name="gameDescription" placeholder="Very cool game..." class="form-control" id="exampleFormControlTextarea1" rows="3" aria-labelledby="passwordHelpBlock"></textarea>
+                            <div id="passwordHelpBlock" class="form-text">
+                                Some information about the game youre adding.
+                            </div>
+                        </div>
 
-                <label for="description">Description:</label>
-                <textarea name="gameDescription" id="description"></textarea>
-
-                <input type="submit" value="Submit" name="submitGame">
-            </form>';
+                        <button type="submit" class="btn btn-success" value="Submit" name="submitGame">Create</button>
+                    </form>
+                </div>';
 
             // É necessário dar um ECHO nesse método para que o form seja exibido
             return $form;

@@ -22,6 +22,25 @@ $resultadoGames = $conexao->query("SELECT * FROM games");
     <link rel="stylesheet" href="../assets/css/buttons.bootstrap4.min.css">
     <!-- Tema da tabela -->
     <link rel="stylesheet" href="../assets/css/adminlte.min.css">
+    <style>
+        .fa-pencil-alt, .fa-trash, .fa-eye, .fa-sync {
+            font-size: 25px;
+            margin: 5px;
+            text-align: center;
+        }
+
+        .fas:hover {
+            color: rgba(50, 160, 90, 1);
+        }
+
+        .fa-trash {
+            color: crimson;
+        }
+        
+        .fa-pencil-alt {
+            color: blue;
+        }
+    </style>
 </head>
 
 <body>
@@ -141,9 +160,10 @@ $resultadoGames = $conexao->query("SELECT * FROM games");
                                                     }
                                                     ?>
                                                 </td>
-                                                <td>
-                                                    <a href="accountEditForm.php?id=<?= $row['acc_id'] ?>">Editar</a>
-                                                    <a href="accountDeleteForm.php?id=<?= $row['acc_id'] ?>">Deletar</a>
+                                                <td style="width: 130px; text-align: center;">
+                                                    <a href="accountEditForm.php?id=<?= $row['acc_id'] ?>"><i class="fas fa-pencil-alt"></i></a>
+                                                    <a href="accountDeleteForm.php?id=<?= $row['acc_id'] ?>"><i class="fas fa-trash"></i></a>
+                                                    <a href="detailedView.php?id=<?= $row['acc_id'] ?>&type=acc"><i class="fas fa-eye"></i></a>
                                                 </td>
                                             </tr>
                                             <?php
@@ -213,11 +233,11 @@ $resultadoGames = $conexao->query("SELECT * FROM games");
                                                     }
                                                     ?>
                                                 </td>
-                                                <td>
-                                                    <a href="gameEditForm.php?id=<?= $row['game_id'] ?>">Editar</a>
-                                                    <a href="gameDeleteForm.php?id=<?= $row['game_id'] ?>">Deletar</a>
-                                                    <a
-                                                        href="../app/Tests/processform.test.php?id=<?= $row['game_id'] ?>">Refresh</a>
+                                                <td style="width: 160px; text-align: center;">
+                                                    <a href="gameEditForm.php?id=<?= $row['game_id'] ?>"><i class="fas fa-pencil-alt"></i></a>
+                                                    <a href="gameDeleteForm.php?id=<?= $row['game_id'] ?>"><i class="fas fa-trash"></i></a>
+                                                    <a href="../app/Tests/processform.test.php?id=<?= $row['game_id'] ?>"><i class="fas fa-sync"></i></a>
+                                                    <a href="detailedView.php?id=<?= $row['game_id'] ?>&type=game"><i class="fas fa-eye"></i></a>
                                                 </td>
                                             </tr>
                                             <?php
