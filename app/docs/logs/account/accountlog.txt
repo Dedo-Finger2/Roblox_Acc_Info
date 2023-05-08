@@ -94,3 +94,27 @@
 [INFO]: GPO: Mera, Wisteria2: Agatsuma 
 [GAMES]: GPO, Wisteria2
 
+[DATA]: 08-05-2023 
+[HORA]: 12:24:59 
+[AÇÃO]: Conta editada[ANTIGO]: dadeds2
+[INFO]: GPO: Tori/Magma/Gomu, Wisteria2: Kamado, Shinobi Life2: Kamui, Mighty Omega: Ohman, Jogo1: teste 
+[GAMES]: GPO, Wisteria2, Shinobi Life2, Mighty Omega, Jogo1
+
+[DATA]: 08-05-2023 
+[HORA]: 12:25:00 
+[AÇÃO]: Conta editada[NOVA]: dadeds2
+[INFO]: GPO: Tori/Magma/Gomu, Wisteria2: Kamado, Shinobi Life2: Kamui, Mighty Omega: Ohman, Jogo1: teste, Deepwoken: Cript Blade 
+[GAMES]: GPO, Wisteria2, Shinobi Life2, Mighty Omega, Jogo1, Deepwoken
+
+[DATA]: 08-05-2023 
+[HORA]: 12:31:03 
+[AÇÃO]: Conta editada[ANTIGO]: dadeds3
+[INFO]: GPO: Mera, Wisteria2: Agatsuma 
+[GAMES]: GPO, Wisteria2
+
+[DATA]: 08-05-2023 
+[HORA]: 12:31:03 
+[AÇÃO]: Conta editada[NOVA]: dadeds3
+[INFO]: GPO: Mera, Wisteria2: Agatsuma, Deepwoken: Kamui Bell 
+[GAMES]: GPO, Wisteria2, Deepwoken
+

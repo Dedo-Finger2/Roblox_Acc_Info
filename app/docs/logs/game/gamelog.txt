@@ -130,3 +130,33 @@
 [DESCRIPTION]: Jogo de luta 
 [ACCOUNTS]: dadeds2
 
+[DATA]: 08-05-2023 
+[HORA]: 12:30:36 
+[AÇÃO]: Novo jogo criado: Deepwoken 
+[DESCRIPTION]: hard game to lose some time with 
+[ACCOUNTS]: dadeds2
+
+[DATA]: 08-05-2023 
+[HORA]: 12:31:15 
+[AÇÃO]: Jogo editado[ANTIGO]: Deepwoken 
+[DESCRIPTION]: hard game to lose some time with 
+[ACCOUNTS]: dadeds2
+
+[DATA]: 08-05-2023 
+[HORA]: 12:31:15 
+[AÇÃO]: Jogo editado[NOVO]: Deepwoken 
+[DESCRIPTION]: hard game to lose some time with 
+[ACCOUNTS]: dadeds2,dadeds3
+
+[DATA]: 08-05-2023 
+[HORA]: 13:01:52 
+[AÇÃO]: Jogo editado[ANTIGO]: Deepwoken 
+[DESCRIPTION]: hard game to lose some time with 
+[ACCOUNTS]: dadeds2,dadeds3
+
+[DATA]: 08-05-2023 
+[HORA]: 13:01:52 
+[AÇÃO]: Jogo editado[NOVO]: Deepwoken 
+[DESCRIPTION]: hard game to lose some time with 
+[ACCOUNTS]: dadeds2,dadeds3
+
