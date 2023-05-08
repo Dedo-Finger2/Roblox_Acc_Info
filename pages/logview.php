@@ -70,22 +70,33 @@
                     about a Roblox account, such as its username, games you play on that account, and what you have on
                     that game with that account.
                 </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <h2>My Mission</h2>
-                <p>My mission is to provide myself with a tool that can help them better understand their own
-                    accounts, as a person who has over 50 roblox accounts I really need it. I believe that by using this
-                    application I can get better results
-                    and store data using my programming powers.</p>
-            </div>
-            <div class="col-md-6">
-                <h2>Meet the Team</h2>
-                <p>My team is made up of experienced developers and designers who are passionate about building great
-                    web applications A.K.A: Me. I am committed to delivering a high-quality product and providing
-                    excellent
-                    customer support myself lol.</p>
+                <div class="container-fluid p-4 bg-dark mb-5" style="border-radius: 15px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5    );" >
+                    <h1 class="text-center">Account Log</h1>
+                    <?php
+                    $arquivo = "../app/docs/logs/account/accountlog.txt";
+                    $conteudo = file_get_contents($arquivo);
+                    
+                    echo $conteudo;
+                    ?>
+                </div>
+                <div class="container-fluid p-4 bg-dark mb-5" style="border-radius: 15px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5    );" >
+                    <h1 class="text-center">Games Log</h1>
+                    <?php
+                    $arquivo = "../app/docs/logs/game/gamelog.txt";
+                    $conteudo = file_get_contents($arquivo);
+                    
+                    echo $conteudo;
+                    ?>
+                </div>
+                <div class="container-fluid p-4 bg-dark mb-5" style="border-radius: 15px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5    );" >
+                    <h1 class="text-center">General Log</h1>
+                    <?php
+                    $arquivo = "../app/docs/logs/general/generallog.txt";
+                    $conteudo = file_get_contents($arquivo);
+                    
+                    echo $conteudo;
+                    ?>
+                </div>
             </div>
         </div>
     </div>

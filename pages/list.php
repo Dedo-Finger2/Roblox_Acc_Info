@@ -23,7 +23,7 @@ $resultadoGames = $conexao->query("SELECT * FROM games");
     <!-- Tema da tabela -->
     <link rel="stylesheet" href="../assets/css/adminlte.min.css">
     <style>
-        .fas {
+        .fa-pencil-alt, .fa-trash, .fa-eye, .fa-sync {
             font-size: 25px;
             margin: 5px;
             text-align: center;
@@ -233,7 +233,7 @@ $resultadoGames = $conexao->query("SELECT * FROM games");
                                                     }
                                                     ?>
                                                 </td>
-                                                <td style="text-align: center;">
+                                                <td style="width: 160px; text-align: center;">
                                                     <a href="gameEditForm.php?id=<?= $row['game_id'] ?>"><i class="fas fa-pencil-alt"></i></a>
                                                     <a href="gameDeleteForm.php?id=<?= $row['game_id'] ?>"><i class="fas fa-trash"></i></a>
                                                     <a href="../app/Tests/processform.test.php?id=<?= $row['game_id'] ?>"><i class="fas fa-sync"></i></a>
