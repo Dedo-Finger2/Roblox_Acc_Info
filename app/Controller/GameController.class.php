@@ -241,12 +241,17 @@ class GameController
         // Requirindo a conexão com o banco de dados
         require_once("../app/Config/Conexao.php");
 
-        $form =
-            '<form method="post" action="../app/Tests/processform.test.php">
-                <h1>Deseja realmente apagar esse jogo?</h1>
-                <input type="submit" value="Deletar" name="deleteGame">
-                <input type="hidden" name="id" value="'.$game_id.'">
-            </form>';
+        $form = '
+            <div class="container-fluid vh-100">
+                <div class="row align-items-center justify-content-center vh-100">
+                    <div class="col-md-4">
+                        <div class="bg-primary shadow-sm p-4" style="background-image: linear-gradient(to bottom, #007bff, #4d94ff); border-radius: 15px;">
+                            <form method="post" action="../app/Tests/processform.test.php">
+                                <h3 class="text-center text-white">Roblox Account Info</h3>
+                                <div class="d-flex align-items-center">
+                                    <img src="../assets/img/whiteLogo.png" alt="Logo" width="105" height="98" class="mx-auto">
+                                </div>
+                                <input type="hidden" name="id" value="'.$game_id.'">';
         echo $form;
 
         // Instanciando a seleção dos dados
@@ -262,14 +267,22 @@ class GameController
         $description = $row['description'];
 
         echo "<div>";
-        echo "<b>Jogo:</b> $name";
-        echo "<br><br><b>Description: $description</b><br>";
-        echo "<br><b>Accounts:</b><br>";
+        echo '<h1 style="color: #fff; text-align: center; margin-top: 30px; margin-bottom: -35px;"><b>'.$name .'</b></h1>';
+        echo "<br><br><h5 class='text-white text-center' style='margin-bottom: -10px;'><b></b> $description</h5><br>";
+        echo "<h4 class='text-white text-center' style='margin-bottom: -3px;'><br><b>-[ Accounts ]-</b></h4><br>";
         foreach ($accounts as $conta) {
-            echo ($conta . "<br>");
+            echo ("<h6 class='text-white text-center' style='margin-bottom: -5px;'><li>".$conta . "</li></h6><br>");
         }
         ;
-        echo "</div>";
+    echo '
+                                    <button type="submit" class="btn btn-danger text-white" value="Submit" name="deleteGame">Delete</button>
+                                    <button class="btn btn-secondary float-end" name="cancel">Cancel</button>             
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>';
 
         // É necessário dar um ECHO nesse método para que o form seja exibido
         //return $form;

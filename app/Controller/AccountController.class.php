@@ -271,11 +271,16 @@ class AccountController
         require_once("../app/Config/Conexao.php");
 
         $form =
-            '<form method="post" action="../app/Tests/processform.test.php">
-                <h1>Deseja realmente apagar essa conta?</h1>
-                <input type="submit" value="Deletar" name="delete">
-                <input type="hidden" name="id" value="' . $account_id . '"></input>
-            </form>';
+            '<div class="container-fluid vh-100">
+            <div class="row align-items-center justify-content-center vh-100">
+                <div class="col-md-4">
+                    <div class="bg-primary shadow-sm p-4" style="background-image: linear-gradient(to bottom, #007bff, #4d94ff); border-radius: 15px;">
+                        <form method="post" action="../app/Tests/processform.test.php">
+                            <h3 class="text-center text-white">Roblox Account Info</h3>
+                            <div class="d-flex align-items-center">
+                                <img src="../assets/img/whiteLogo.png" alt="Logo" width="105" height="98" class="mx-auto">
+                            </div>
+                            <input type="hidden" name="id" value="'.$account_id.'">';
         echo $form;
         // instanciando a seleção dos dados
         $sql = $conexao->prepare("SELECT * FROM accounts WHERE acc_id = ?");
@@ -289,19 +294,28 @@ class AccountController
         $games = unserialize($row['games']);
         $username = $row['username'];
 
-        echo "<div>";
-        echo "<b>Conta:</b> $username";
-        echo "<br><br><b>Info:</b><br>";
+        
+        echo "<h1 class='text-center text-white' style='margin-top: 25px;'><b>$username</b></h1>";
+        echo "<br><br><h3 class='text-white text-center' style='margin-bottom: -7px;'><b>-[ Info ]-</b></h3><br>";
         foreach ($info as $jogo => $item) {
-            echo ($jogo . " - " . $item . "<br>");
+            echo ("<h6 class='text-white text-center' style='margin-bottom: -3px;'>".$jogo . " - " . $item . "</h6><br>");
         }
-        ;
-        echo "<br><b>Games:</b><br>";
+        
+        echo "<h4 class='text-white text-center' style='margin-bottom: 20px; margin-top: 20px;'><b>-[ Games ]-</b></h4>";
+        //echo "<br><h7 class='text-white text-center' style='margin-bottom: -7px;><b>Jogos</b></h6><br>";
+        
         foreach ($games as $jogo) {
-            echo ($jogo . "<br>");
+            echo ("<h6 class='text-white text-center' style='margin-bottom: -7px;'>".$jogo . "</h6><br>");
         }
-        ;
-        echo "</div>";
+        
+        echo '
+                                <button type="submit" class="btn btn-danger text-white" value="Submit" name="delete">Delete</button>
+                                <button class="btn btn-secondary float-end" name="cancel">Cancel</button>             
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>';
 
         // É necessário dar um ECHO nesse método para que o form seja exibido
         //return $form;
