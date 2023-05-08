@@ -241,8 +241,7 @@ class GameController
         // Requirindo a conexão com o banco de dados
         require_once("../app/Config/Conexao.php");
 
-        $form =
-            '
+        $form = '
             <div class="container-fluid vh-100">
                 <div class="row align-items-center justify-content-center vh-100">
                     <div class="col-md-4">
@@ -270,7 +269,7 @@ class GameController
         echo "<div>";
         echo '<h1 style="color: #fff; text-align: center; margin-top: 30px; margin-bottom: -35px;"><b>'.$name .'</b></h1>';
         echo "<br><br><h5 class='text-white text-center' style='margin-bottom: -10px;'><b></b> $description</h5><br>";
-        echo "<h4 class='text-white text-center' style='margin-bottom: -3px;'><br><b>Accounts</b></h4><br>";
+        echo "<h4 class='text-white text-center' style='margin-bottom: -3px;'><br><b>-[ Accounts ]-</b></h4><br>";
         foreach ($accounts as $conta) {
             echo ("<h6 class='text-white text-center' style='margin-bottom: -5px;'><li>".$conta . "</li></h6><br>");
         }
