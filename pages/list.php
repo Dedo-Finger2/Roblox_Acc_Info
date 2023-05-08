@@ -163,7 +163,7 @@ $resultadoGames = $conexao->query("SELECT * FROM games");
                                                 <td style="width: 130px; text-align: center;">
                                                     <a href="accountEditForm.php?id=<?= $row['acc_id'] ?>"><i class="fas fa-pencil-alt"></i></a>
                                                     <a href="accountDeleteForm.php?id=<?= $row['acc_id'] ?>"><i class="fas fa-trash"></i></a>
-                                                    <a href="#?id=<?= $row['acc_id'] ?>?type=acc"><i class="fas fa-eye"></i></a>
+                                                    <a href="detailedView.php?id=<?= $row['acc_id'] ?>&type=acc"><i class="fas fa-eye"></i></a>
                                                 </td>
                                             </tr>
                                             <?php
@@ -237,7 +237,7 @@ $resultadoGames = $conexao->query("SELECT * FROM games");
                                                     <a href="gameEditForm.php?id=<?= $row['game_id'] ?>"><i class="fas fa-pencil-alt"></i></a>
                                                     <a href="gameDeleteForm.php?id=<?= $row['game_id'] ?>"><i class="fas fa-trash"></i></a>
                                                     <a href="../app/Tests/processform.test.php?id=<?= $row['game_id'] ?>"><i class="fas fa-sync"></i></a>
-                                                    <a href="#?id=<?= $row['game_id'] ?>?type=game"><i class="fas fa-eye"></i></a>
+                                                    <a href="detailedView.php?id=<?= $row['game_id'] ?>&type=game"><i class="fas fa-eye"></i></a>
                                                 </td>
                                             </tr>
                                             <?php
